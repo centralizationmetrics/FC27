@@ -1,0 +1,112 @@
+{
+  "revision": "713a10ab25e7e0c1e2b745696151237be2a86256",
+  "alpha_and_rho": "3/20",
+  "merge_budget": "total mass moved; each group retains its largest label",
+  "chains": {
+    "aptos": {
+      "url": "https://raw.githubusercontent.com/sm86/destake/713a10ab25e7e0c1e2b745696151237be2a86256/data/tnsm/25102024_aptos.csv",
+      "sha256": "b6884e2bfd934c58675ddbd265a400801d718fdc4dd747d99d04c4a447b24b4c",
+      "rows": 191,
+      "positive_rows": 180,
+      "token_count_total": "88836216831666463",
+      "observed_hhi": 0.01101758245876029,
+      "largest_observed_share": 0.02999906794744092,
+      "merge_safe_interval": [
+        0.01101758245876029,
+        0.04211789933546067
+      ],
+      "shift_sharp_endpoints": [
+        0.006864892067171968,
+        0.04211789933546067
+      ],
+      "shift_sharp_endpoints_at_010": [
+        0.007903436018604876,
+        0.026827684807541875
+      ],
+      "fixed_support_witness_hhi": 0.03963008473932201,
+      "fixed_support_witness_tv_exact": "3/20",
+      "witness_sum_exact": "1",
+      "threshold_counts": {
+        "1/3": {
+          "observed": 22,
+          "merge_safe_interval": [
+            10,
+            22
+          ],
+          "shift_sharp_interval": [
+            10,
+            34
+          ]
+        },
+        "2/3": {
+          "observed": 53,
+          "merge_safe_interval": [
+            38,
+            53
+          ],
+          "shift_sharp_interval": [
+            38,
+            72
+          ]
+        }
+      }
+    },
+    "polygon": {
+      "url": "https://raw.githubusercontent.com/sm86/destake/713a10ab25e7e0c1e2b745696151237be2a86256/data/tnsm/25102024_polygon.csv",
+      "sha256": "5d07515da892bd8afdedb0ae8065c9d316313650f2da1958fed7b3e7bcb02865",
+      "rows": 105,
+      "positive_rows": 105,
+      "token_count_total": "3385132672",
+      "observed_hhi": 0.05074221954567401,
+      "largest_observed_share": 0.10543841337513167,
+      "merge_safe_interval": [
+        0.05074221954567401,
+        0.10393208754618516
+      ],
+      "shift_sharp_endpoints": [
+        0.02936482953858076,
+        0.10393208754618516
+      ],
+      "shift_sharp_endpoints_at_010": [
+        0.03504047201290468,
+        0.08154303546014058
+      ],
+      "fixed_support_witness_hhi": 0.031363498858741456,
+      "fixed_support_witness_tv_exact": "3/20",
+      "witness_sum_exact": "1",
+      "threshold_counts": {
+        "1/3": {
+          "observed": 4,
+          "merge_safe_interval": [
+            2,
+            4
+          ],
+          "shift_sharp_interval": [
+            2,
+            7
+          ]
+        },
+        "2/3": {
+          "observed": 12,
+          "merge_safe_interval": [
+            8,
+            12
+          ],
+          "shift_sharp_interval": [
+            8,
+            18
+          ]
+        }
+      }
+    }
+  },
+  "rounded_summary_comparison": {
+    "bitcoin_full_hhi_upper": "759/400000",
+    "bitcoin_largest_share_safe_upper": "21781/500000",
+    "moved_mass_budget": "3/20",
+    "bitcoin_merge_hhi_safe_upper": 0.0374661,
+    "ethereum_full_hhi_strict_lower": 0.0477924375,
+    "ordering_certified": true
+  },
+  "exact_checks": "PASS: normalized; same positive supports; removed=added=TV=3/20; moved-mass Merge order preserved at 0.10 and 0.15; Shift order preserved at 0.10 and reversed at 0.15; rounded-summary comparison survives moved-mass Merge at 0.15"
+}

@@ -1,0 +1,657 @@
+{
+  "source_revision": "713a10ab25e7e0c1e2b745696151237be2a86256",
+  "moved_mass_budget": "3/20",
+  "chains": {
+    "aptos": {
+      "source_url": "https://raw.githubusercontent.com/sm86/destake/713a10ab25e7e0c1e2b745696151237be2a86256/data/tnsm/25102024_aptos.csv",
+      "sha256": "b6884e2bfd934c58675ddbd265a400801d718fdc4dd747d99d04c4a447b24b4c",
+      "rows": 191,
+      "positive_rows": 180,
+      "token_count_total": "88836216831666463",
+      "metrics": {
+        "HHI": {
+          "observed": 0.01101758245876029,
+          "merge_safe": [
+            0.01101758245876029,
+            0.04211789933546067
+          ],
+          "shift_sharp": [
+            0.006864892067171968,
+            0.04211789933546067
+          ]
+        },
+        "NC_1/3": {
+          "observed": 22,
+          "merge_safe": [
+            10,
+            22
+          ],
+          "shift_sharp": [
+            10,
+            34
+          ]
+        },
+        "NC_2/3": {
+          "observed": 53,
+          "merge_safe": [
+            38,
+            53
+          ],
+          "shift_sharp": [
+            38,
+            72
+          ]
+        }
+      }
+    },
+    "axelar": {
+      "source_url": "https://raw.githubusercontent.com/sm86/destake/713a10ab25e7e0c1e2b745696151237be2a86256/data/tnsm/25102024_axelar.csv",
+      "sha256": "3eedaba976fdfb0b9db7c050b16d9274387237386c906b9d59b0b05d2ff0bbb1",
+      "rows": 75,
+      "positive_rows": 75,
+      "token_count_total": "737486336",
+      "metrics": {
+        "HHI": {
+          "observed": 0.019685027454951664,
+          "merge_safe": [
+            0.019685027454951664,
+            0.055388329604271744
+          ],
+          "shift_sharp": [
+            0.012045867088822916,
+            0.055388329604271744
+          ]
+        },
+        "NC_1/3": {
+          "observed": 12,
+          "merge_safe": [
+            5,
+            12
+          ],
+          "shift_sharp": [
+            5,
+            20
+          ]
+        },
+        "NC_2/3": {
+          "observed": 31,
+          "merge_safe": [
+            22,
+            31
+          ],
+          "shift_sharp": [
+            22,
+            43
+          ]
+        }
+      }
+    },
+    "binance": {
+      "source_url": "https://raw.githubusercontent.com/sm86/destake/713a10ab25e7e0c1e2b745696151237be2a86256/data/tnsm/14122023_binance.csv",
+      "sha256": "def9b17987f72a73dd9bc5663d7432641588eab025aadf34b35e12f21f0a9f24",
+      "rows": 57,
+      "positive_rows": 57,
+      "token_count_total": "22265327",
+      "metrics": {
+        "HHI": {
+          "observed": 0.03630882263848318,
+          "merge_safe": [
+            0.03630882263848318,
+            0.0721487366024945
+          ],
+          "shift_sharp": [
+            0.025029052865726886,
+            0.0721487366024945
+          ]
+        },
+        "NC_1/3": {
+          "observed": 8,
+          "merge_safe": [
+            5,
+            8
+          ],
+          "shift_sharp": [
+            5,
+            10
+          ]
+        },
+        "NC_2/3": {
+          "observed": 17,
+          "merge_safe": [
+            13,
+            17
+          ],
+          "shift_sharp": [
+            13,
+            20
+          ]
+        }
+      }
+    },
+    "celestia": {
+      "source_url": "https://raw.githubusercontent.com/sm86/destake/713a10ab25e7e0c1e2b745696151237be2a86256/data/tnsm/25102024_celestia.csv",
+      "sha256": "73ea1c7e8a74f507461eca57dff0e315e5a41db515aa23df452b3e59496bb15c",
+      "rows": 239,
+      "positive_rows": 239,
+      "token_count_total": "739210731905915",
+      "metrics": {
+        "HHI": {
+          "observed": 0.025636782483946813,
+          "merge_safe": [
+            0.025636782483946813,
+            0.06694791369746665
+          ],
+          "shift_sharp": [
+            0.01330841901598381,
+            0.06694791369746665
+          ]
+        },
+        "NC_1/3": {
+          "observed": 7,
+          "merge_safe": [
+            4,
+            7
+          ],
+          "shift_sharp": [
+            4,
+            13
+          ]
+        },
+        "NC_2/3": {
+          "observed": 28,
+          "merge_safe": [
+            15,
+            28
+          ],
+          "shift_sharp": [
+            15,
+            50
+          ]
+        }
+      }
+    },
+    "celo": {
+      "source_url": "https://raw.githubusercontent.com/sm86/destake/713a10ab25e7e0c1e2b745696151237be2a86256/data/tnsm/25102024_celo.csv",
+      "sha256": "28b3dd4c9a45a961c997e045612584c8bb02db9c19772f3309a52430d8736800",
+      "rows": 86,
+      "positive_rows": 85,
+      "token_count_total": "196575976568359715070676417",
+      "metrics": {
+        "HHI": {
+          "observed": 0.018812606557036683,
+          "merge_safe": [
+            0.018812606557036683,
+            0.053696650922488216
+          ],
+          "shift_sharp": [
+            0.011541760303341666,
+            0.053696650922488216
+          ]
+        },
+        "NC_1/3": {
+          "observed": 13,
+          "merge_safe": [
+            6,
+            13
+          ],
+          "shift_sharp": [
+            6,
+            21
+          ]
+        },
+        "NC_2/3": {
+          "observed": 33,
+          "merge_safe": [
+            23,
+            33
+          ],
+          "shift_sharp": [
+            23,
+            46
+          ]
+        }
+      }
+    },
+    "cosmos": {
+      "source_url": "https://raw.githubusercontent.com/sm86/destake/713a10ab25e7e0c1e2b745696151237be2a86256/data/tnsm/25102024_cosmos.csv",
+      "sha256": "64aabf7253557bf8ec23ed36abfbba61d3707650d7e1eba990a6446841f03613",
+      "rows": 200,
+      "positive_rows": 200,
+      "token_count_total": "252931780382130",
+      "metrics": {
+        "HHI": {
+          "observed": 0.029038735661905967,
+          "merge_safe": [
+            0.029038735661905967,
+            0.08278191026824089
+          ],
+          "shift_sharp": [
+            0.01345946583385023,
+            0.08278191026824089
+          ]
+        },
+        "NC_1/3": {
+          "observed": 7,
+          "merge_safe": [
+            3,
+            7
+          ],
+          "shift_sharp": [
+            3,
+            13
+          ]
+        },
+        "NC_2/3": {
+          "observed": 25,
+          "merge_safe": [
+            15,
+            25
+          ],
+          "shift_sharp": [
+            15,
+            49
+          ]
+        }
+      }
+    },
+    "injective": {
+      "source_url": "https://raw.githubusercontent.com/sm86/destake/713a10ab25e7e0c1e2b745696151237be2a86256/data/tnsm/25102024_injective.csv",
+      "sha256": "0a3fef824aadf0086b927368d09c51e805da5989d5cbff3e577e1c464e35eb24",
+      "rows": 60,
+      "positive_rows": 60,
+      "token_count_total": "60403640",
+      "metrics": {
+        "HHI": {
+          "observed": 0.03270266359291342,
+          "merge_safe": [
+            0.03270266359291342,
+            0.08887336630140956
+          ],
+          "shift_sharp": [
+            0.015577068151948377,
+            0.08887336630140956
+          ]
+        },
+        "NC_1/3": {
+          "observed": 7,
+          "merge_safe": [
+            3,
+            7
+          ],
+          "shift_sharp": [
+            3,
+            13
+          ]
+        },
+        "NC_2/3": {
+          "observed": 23,
+          "merge_safe": [
+            15,
+            23
+          ],
+          "shift_sharp": [
+            15,
+            35
+          ]
+        }
+      }
+    },
+    "osmosis": {
+      "source_url": "https://raw.githubusercontent.com/sm86/destake/713a10ab25e7e0c1e2b745696151237be2a86256/data/tnsm/14122023_osmosis.csv",
+      "sha256": "37770817aac9a97143da65ba67643fccc04bd894275d91b24a7a8a3660176b9d",
+      "rows": 150,
+      "positive_rows": 150,
+      "token_count_total": "335921222355566",
+      "metrics": {
+        "HHI": {
+          "observed": 0.020328148903837426,
+          "merge_safe": [
+            0.020328148903837426,
+            0.0625316697001665
+          ],
+          "shift_sharp": [
+            0.008656277032478283,
+            0.0625316697001665
+          ]
+        },
+        "NC_1/3": {
+          "observed": 10,
+          "merge_safe": [
+            4,
+            10
+          ],
+          "shift_sharp": [
+            4,
+            22
+          ]
+        },
+        "NC_2/3": {
+          "observed": 42,
+          "merge_safe": [
+            25,
+            42
+          ],
+          "shift_sharp": [
+            25,
+            67
+          ]
+        }
+      }
+    },
+    "polygon": {
+      "source_url": "https://raw.githubusercontent.com/sm86/destake/713a10ab25e7e0c1e2b745696151237be2a86256/data/tnsm/25102024_polygon.csv",
+      "sha256": "5d07515da892bd8afdedb0ae8065c9d316313650f2da1958fed7b3e7bcb02865",
+      "rows": 105,
+      "positive_rows": 105,
+      "token_count_total": "3385132672",
+      "metrics": {
+        "HHI": {
+          "observed": 0.05074221954567401,
+          "merge_safe": [
+            0.05074221954567401,
+            0.10393208754618516
+          ],
+          "shift_sharp": [
+            0.02936482953858076,
+            0.10393208754618516
+          ]
+        },
+        "NC_1/3": {
+          "observed": 4,
+          "merge_safe": [
+            2,
+            4
+          ],
+          "shift_sharp": [
+            2,
+            7
+          ]
+        },
+        "NC_2/3": {
+          "observed": 12,
+          "merge_safe": [
+            8,
+            12
+          ],
+          "shift_sharp": [
+            8,
+            18
+          ]
+        }
+      }
+    },
+    "sui": {
+      "source_url": "https://raw.githubusercontent.com/sm86/destake/713a10ab25e7e0c1e2b745696151237be2a86256/data/tnsm/25102024_sui.csv",
+      "sha256": "5cf5a7cc76f1c268f20c0592e75539622a373e87f6320a365dc95cd8ab569a25",
+      "rows": 108,
+      "positive_rows": 108,
+      "token_count_total": "7758554182766354074",
+      "metrics": {
+        "HHI": {
+          "observed": 0.013509294366500722,
+          "merge_safe": [
+            0.013509294366500722,
+            0.04475536813456948
+          ],
+          "shift_sharp": [
+            0.008166633115507365,
+            0.04475536813456948
+          ]
+        },
+        "NC_1/3": {
+          "observed": 17,
+          "merge_safe": [
+            8,
+            17
+          ],
+          "shift_sharp": [
+            8,
+            27
+          ]
+        },
+        "NC_2/3": {
+          "observed": 44,
+          "merge_safe": [
+            30,
+            44
+          ],
+          "shift_sharp": [
+            30,
+            63
+          ]
+        }
+      }
+    }
+  },
+  "pairwise_orderings": {
+    "HHI": {
+      "strict_observed_pairs": 45,
+      "certified_by_safe_merge_bounds": 2,
+      "certified_by_sharp_shift_intervals": 0,
+      "merge_pairs": [
+        [
+          "aptos",
+          "polygon"
+        ],
+        [
+          "sui",
+          "polygon"
+        ]
+      ],
+      "shift_pairs": [],
+      "reversible_by_explicit_two_new_controller_shift": 45,
+      "smallest_exact_reversal_margin": "1061941708241586569628432836514954346121579386691381/706515233321815135890470924674642517188521795400832000",
+      "smallest_reversal_margin_decimal": 0.0015030697968799152
+    },
+    "NC_1/3": {
+      "strict_observed_pairs": 42,
+      "certified_by_safe_merge_bounds": 12,
+      "certified_by_sharp_shift_intervals": 2,
+      "merge_pairs": [
+        [
+          "binance",
+          "aptos"
+        ],
+        [
+          "celestia",
+          "aptos"
+        ],
+        [
+          "cosmos",
+          "aptos"
+        ],
+        [
+          "injective",
+          "aptos"
+        ],
+        [
+          "polygon",
+          "aptos"
+        ],
+        [
+          "polygon",
+          "axelar"
+        ],
+        [
+          "polygon",
+          "binance"
+        ],
+        [
+          "celestia",
+          "sui"
+        ],
+        [
+          "polygon",
+          "celo"
+        ],
+        [
+          "cosmos",
+          "sui"
+        ],
+        [
+          "injective",
+          "sui"
+        ],
+        [
+          "polygon",
+          "sui"
+        ]
+      ],
+      "shift_pairs": [
+        [
+          "polygon",
+          "aptos"
+        ],
+        [
+          "polygon",
+          "sui"
+        ]
+      ]
+    },
+    "NC_2/3": {
+      "strict_observed_pairs": 45,
+      "certified_by_safe_merge_bounds": 23,
+      "certified_by_sharp_shift_intervals": 11,
+      "merge_pairs": [
+        [
+          "axelar",
+          "aptos"
+        ],
+        [
+          "binance",
+          "aptos"
+        ],
+        [
+          "celestia",
+          "aptos"
+        ],
+        [
+          "celo",
+          "aptos"
+        ],
+        [
+          "cosmos",
+          "aptos"
+        ],
+        [
+          "injective",
+          "aptos"
+        ],
+        [
+          "polygon",
+          "aptos"
+        ],
+        [
+          "binance",
+          "axelar"
+        ],
+        [
+          "polygon",
+          "axelar"
+        ],
+        [
+          "binance",
+          "celo"
+        ],
+        [
+          "binance",
+          "osmosis"
+        ],
+        [
+          "polygon",
+          "binance"
+        ],
+        [
+          "binance",
+          "sui"
+        ],
+        [
+          "polygon",
+          "celestia"
+        ],
+        [
+          "celestia",
+          "sui"
+        ],
+        [
+          "polygon",
+          "celo"
+        ],
+        [
+          "polygon",
+          "cosmos"
+        ],
+        [
+          "cosmos",
+          "sui"
+        ],
+        [
+          "injective",
+          "osmosis"
+        ],
+        [
+          "polygon",
+          "injective"
+        ],
+        [
+          "injective",
+          "sui"
+        ],
+        [
+          "polygon",
+          "osmosis"
+        ],
+        [
+          "polygon",
+          "sui"
+        ]
+      ],
+      "shift_pairs": [
+        [
+          "binance",
+          "aptos"
+        ],
+        [
+          "injective",
+          "aptos"
+        ],
+        [
+          "polygon",
+          "aptos"
+        ],
+        [
+          "binance",
+          "axelar"
+        ],
+        [
+          "polygon",
+          "axelar"
+        ],
+        [
+          "binance",
+          "celo"
+        ],
+        [
+          "binance",
+          "osmosis"
+        ],
+        [
+          "binance",
+          "sui"
+        ],
+        [
+          "polygon",
+          "celo"
+        ],
+        [
+          "polygon",
+          "osmosis"
+        ],
+        [
+          "polygon",
+          "sui"
+        ]
+      ]
+    }
+  }
+}

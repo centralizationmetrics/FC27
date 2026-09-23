@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv*/
+.fc27-cache/
+.pytest_cache/
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.bbl
+*.blg
+fc27_supplementary_artifact/
+fc27_supplementary_artifact.zip
+# Paper and figure PDFs, datasets, and manifests are intentional release files.

@@ -1,0 +1,2303 @@
+{
+  "meaning": {
+    "Shift": "breakdown of strict observed ordering; exact-rational enclosing bracket",
+    "Merge": "boundary of sufficient interval-separation guarantee; lower bound on true breakdown"
+  },
+  "maximum_bracket_width": "1/1099511627776",
+  "pairs": [
+    {
+      "metric": "HHI",
+      "lower_observed": "aptos",
+      "higher_observed": "axelar",
+      "Merge": {
+        "lower_exact": "75138649405/1099511627776",
+        "upper_exact": "37569324703/549755813888",
+        "lower": 0.06833820353222109,
+        "upper": 0.06833820353313058
+      },
+      "Shift": {
+        "lower_exact": "26830016189/549755813888",
+        "upper_exact": "53660032379/1099511627776",
+        "lower": 0.04880351514475478,
+        "upper": 0.04880351514566428
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "aptos",
+      "higher_observed": "binance",
+      "Merge": {
+        "lower_exact": "146023334517/1099511627776",
+        "upper_exact": "73011667259/549755813888",
+        "lower": 0.13280744907842745,
+        "upper": 0.13280744907933695
+      },
+      "Shift": {
+        "lower_exact": "14432175311/137438953472",
+        "upper_exact": "115457402489/1099511627776",
+        "lower": 0.1050078958433005,
+        "upper": 0.10500789584421
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "aptos",
+      "higher_observed": "celestia",
+      "Merge": {
+        "lower_exact": "26190953081/274877906944",
+        "upper_exact": "104763812325/1099511627776",
+        "lower": 0.0952821322462114,
+        "upper": 0.0952821322471209
+      },
+      "Shift": {
+        "lower_exact": "36108742511/549755813888",
+        "upper_exact": "72217485023/1099511627776",
+        "lower": 0.0656814200028748,
+        "upper": 0.0656814200037843
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "aptos",
+      "higher_observed": "celo",
+      "Merge": {
+        "lower_exact": "35042336153/549755813888",
+        "upper_exact": "70084672307/1099511627776",
+        "lower": 0.06374163813779887,
+        "upper": 0.06374163813870837
+      },
+      "Shift": {
+        "lower_exact": "12489459489/274877906944",
+        "upper_exact": "49957837957/1099511627776",
+        "lower": 0.045436388933012495,
+        "upper": 0.04543638893392199
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "aptos",
+      "higher_observed": "cosmos",
+      "Merge": {
+        "lower_exact": "119138226327/1099511627776",
+        "upper_exact": "14892278291/137438953472",
+        "lower": 0.10835558562303049,
+        "upper": 0.10835558562393999
+      },
+      "Shift": {
+        "lower_exact": "73482026297/1099511627776",
+        "upper_exact": "36741013149/549755813888",
+        "lower": 0.06683151359266049,
+        "upper": 0.06683151359356998
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "aptos",
+      "higher_observed": "injective",
+      "Merge": {
+        "lower_exact": "133215098283/1099511627776",
+        "upper_exact": "33303774571/274877906944",
+        "lower": 0.12115842608454841,
+        "upper": 0.1211584260854579
+      },
+      "Shift": {
+        "lower_exact": "82072980875/1099511627776",
+        "upper_exact": "20518245219/274877906944",
+        "lower": 0.07464494126452337,
+        "upper": 0.07464494126543286
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "aptos",
+      "higher_observed": "osmosis",
+      "Merge": {
+        "lower_exact": "19678869151/274877906944",
+        "upper_exact": "78715476605/1099511627776",
+        "lower": 0.07159130891886889,
+        "upper": 0.07159130891977838
+      },
+      "Shift": {
+        "lower_exact": "6052999151/137438953472",
+        "upper_exact": "48423993209/1099511627776",
+        "lower": 0.04404136526136426,
+        "upper": 0.04404136526227376
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "aptos",
+      "higher_observed": "polygon",
+      "Merge": {
+        "lower_exact": "47515756199/274877906944",
+        "upper_exact": "190063024797/1099511627776",
+        "lower": 0.17286131405489868,
+        "upper": 0.17286131405580818
+      },
+      "Shift": {
+        "lower_exact": "132723907037/1099511627776",
+        "upper_exact": "66361953519/549755813888",
+        "lower": 0.12071169024875417,
+        "upper": 0.12071169024966366
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "aptos",
+      "higher_observed": "sui",
+      "Merge": {
+        "lower_exact": "7845395807/274877906944",
+        "upper_exact": "31381583229/1099511627776",
+        "lower": 0.028541383679112187,
+        "upper": 0.02854138368002168
+      },
+      "Shift": {
+        "lower_exact": "5171058047/274877906944",
+        "upper_exact": "20684232189/1099511627776",
+        "lower": 0.018812199585227063,
+        "upper": 0.018812199586136558
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "axelar",
+      "higher_observed": "binance",
+      "Merge": {
+        "lower_exact": "101013296851/1099511627776",
+        "upper_exact": "25253324213/274877906944",
+        "lower": 0.09187105829460052,
+        "upper": 0.09187105829551001
+      },
+      "Shift": {
+        "lower_exact": "298343757/4294967296",
+        "upper_exact": "76376001793/1099511627776",
+        "lower": 0.06946356897242367,
+        "upper": 0.06946356897333317
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "axelar",
+      "higher_observed": "celestia",
+      "Merge": {
+        "lower_exact": "24366024959/549755813888",
+        "upper_exact": "48732049919/1099511627776",
+        "lower": 0.04432154120695486,
+        "upper": 0.04432154120786436
+      },
+      "Shift": {
+        "lower_exact": "28597796145/1099511627776",
+        "upper_exact": "14298898073/549755813888",
+        "lower": 0.026009544076259772,
+        "upper": 0.026009544077169267
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "celo",
+      "higher_observed": "axelar",
+      "Merge": {
+        "lower_exact": "4932845393/549755813888",
+        "upper_exact": "9865690787/1099511627776",
+        "lower": 0.008972793499196996,
+        "upper": 0.00897279350010649
+      },
+      "Shift": {
+        "lower_exact": "5188534337/1099511627776",
+        "upper_exact": "2594267169/549755813888",
+        "lower": 0.004718944489468413,
+        "upper": 0.004718944490377908
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "axelar",
+      "higher_observed": "cosmos",
+      "Merge": {
+        "lower_exact": "67897188921/1099511627776",
+        "upper_exact": "33948594461/549755813888",
+        "lower": 0.06175213358892506,
+        "upper": 0.06175213358983456
+      },
+      "Shift": {
+        "lower_exact": "34238722747/1099511627776",
+        "upper_exact": "8559680687/274877906944",
+        "lower": 0.03113993693386874,
+        "upper": 0.031139936934778234
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "axelar",
+      "higher_observed": "injective",
+      "Merge": {
+        "lower_exact": "85620926457/1099511627776",
+        "upper_exact": "42810463229/549755813888",
+        "lower": 0.07787177897353104,
+        "upper": 0.07787177897444053
+      },
+      "Shift": {
+        "lower_exact": "44492764769/1099511627776",
+        "upper_exact": "22246382385/549755813888",
+        "lower": 0.0404659338246347,
+        "upper": 0.0404659338255442
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "axelar",
+      "higher_observed": "osmosis",
+      "Merge": {
+        "lower_exact": "222694015/34359738368",
+        "upper_exact": "7126208481/1099511627776",
+        "lower": 0.006481248856289312,
+        "upper": 0.006481248857198807
+      },
+      "Shift": {
+        "lower_exact": "3112783853/1099511627776",
+        "upper_exact": "1556391927/549755813888",
+        "lower": 0.0028310604220678215,
+        "upper": 0.002831060422977316
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "axelar",
+      "higher_observed": "polygon",
+      "Merge": {
+        "lower_exact": "73828867/536870912",
+        "upper_exact": "151201519617/1099511627776",
+        "lower": 0.13751698099076748,
+        "upper": 0.13751698099167697
+      },
+      "Shift": {
+        "lower_exact": "100329793761/1099511627776",
+        "upper_exact": "50164896881/549755813888",
+        "lower": 0.09124941585560009,
+        "upper": 0.09124941585650959
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "sui",
+      "higher_observed": "axelar",
+      "Merge": {
+        "lower_exact": "59950669657/1099511627776",
+        "upper_exact": "29975334829/549755813888",
+        "lower": 0.05452481642078055,
+        "upper": 0.05452481642169005
+      },
+      "Shift": {
+        "lower_exact": "40061038161/1099511627776",
+        "upper_exact": "20030519081/549755813888",
+        "lower": 0.03643530195495259,
+        "upper": 0.03643530195586209
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "celestia",
+      "higher_observed": "binance",
+      "Merge": {
+        "lower_exact": "31851984183/549755813888",
+        "upper_exact": "63703968367/1099511627776",
+        "lower": 0.057938421710787225,
+        "upper": 0.05793842171169672
+      },
+      "Shift": {
+        "lower_exact": "46543191957/1099511627776",
+        "upper_exact": "23271595979/549755813888",
+        "lower": 0.04233078648849187,
+        "upper": 0.04233078648940136
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "celo",
+      "higher_observed": "binance",
+      "Merge": {
+        "lower_exact": "106514007357/1099511627776",
+        "upper_exact": "53257003679/549755813888",
+        "lower": 0.0968739253557942,
+        "upper": 0.0968739253567037
+      },
+      "Shift": {
+        "lower_exact": "80888487895/1099511627776",
+        "upper_exact": "10111060987/137438953472",
+        "lower": 0.07356765117492614,
+        "upper": 0.07356765117583564
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "cosmos",
+      "higher_observed": "binance",
+      "Merge": {
+        "lower_exact": "33369353337/1099511627776",
+        "upper_exact": "16684676669/549755813888",
+        "lower": 0.030349250061590283,
+        "upper": 0.030349250062499777
+      },
+      "Shift": {
+        "lower_exact": "25100471209/1099511627776",
+        "upper_exact": "12550235605/549755813888",
+        "lower": 0.022828745576589426,
+        "upper": 0.02282874557749892
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "injective",
+      "higher_observed": "binance",
+      "Merge": {
+        "lower_exact": "16414601827/1099511627776",
+        "upper_exact": "4103650457/274877906944",
+        "lower": 0.014928993393368728,
+        "upper": 0.014928993394278223
+      },
+      "Shift": {
+        "lower_exact": "12095141565/1099511627776",
+        "upper_exact": "6047570783/549755813888",
+        "lower": 0.011000467170561024,
+        "upper": 0.011000467171470518
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "osmosis",
+      "higher_observed": "binance",
+      "Merge": {
+        "lower_exact": "657180089/8589934592",
+        "upper_exact": "84119051393/1099511627776",
+        "lower": 0.07650583155918866,
+        "upper": 0.07650583156009816
+      },
+      "Shift": {
+        "lower_exact": "64473713939/1099511627776",
+        "upper_exact": "16118428485/274877906944",
+        "lower": 0.05863850123114389,
+        "upper": 0.058638501232053386
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "binance",
+      "higher_observed": "polygon",
+      "Merge": {
+        "lower_exact": "44833586597/549755813888",
+        "upper_exact": "89667173195/1099511627776",
+        "lower": 0.08155181894289854,
+        "upper": 0.08155181894380803
+      },
+      "Shift": {
+        "lower_exact": "49664599465/1099511627776",
+        "upper_exact": "24832299733/549755813888",
+        "lower": 0.045169690079092106,
+        "upper": 0.0451696900800016
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "sui",
+      "higher_observed": "binance",
+      "Merge": {
+        "lower_exact": "136956654985/1099511627776",
+        "upper_exact": "68478327493/549755813888",
+        "lower": 0.1245613520814004,
+        "upper": 0.1245613520823099
+      },
+      "Shift": {
+        "lower_exact": "107018036117/1099511627776",
+        "upper_exact": "53509018059/549755813888",
+        "lower": 0.09733233684255538,
+        "upper": 0.09733233684346487
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "celo",
+      "higher_observed": "celestia",
+      "Merge": {
+        "lower_exact": "55442445823/1099511627776",
+        "upper_exact": "108286027/2147483648",
+        "lower": 0.050424610729351116,
+        "upper": 0.05042461073026061
+      },
+      "Shift": {
+        "lower_exact": "2073800429/68719476736",
+        "upper_exact": "33180806865/1099511627776",
+        "lower": 0.03017776804335881,
+        "upper": 0.030177768044268305
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "celestia",
+      "higher_observed": "cosmos",
+      "Merge": {
+        "lower_exact": "12461349205/549755813888",
+        "upper_exact": "24922698411/1099511627776",
+        "lower": 0.022667062157779583,
+        "upper": 0.022667062158689077
+      },
+      "Shift": {
+        "lower_exact": "2769284603/274877906944",
+        "upper_exact": "11077138413/1099511627776",
+        "lower": 0.010074598696519388,
+        "upper": 0.010074598697428883
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "celestia",
+      "higher_observed": "injective",
+      "Merge": {
+        "lower_exact": "46071551411/1099511627776",
+        "upper_exact": "11517887853/274877906944",
+        "lower": 0.041901831910763576,
+        "upper": 0.04190183191167307
+      },
+      "Shift": {
+        "lower_exact": "10815384351/549755813888",
+        "upper_exact": "21630768703/1099511627776",
+        "lower": 0.01967306952974468,
+        "upper": 0.019673069530654175
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "osmosis",
+      "higher_observed": "celestia",
+      "Merge": {
+        "lower_exact": "35346891573/1099511627776",
+        "upper_exact": "17673445787/549755813888",
+        "lower": 0.032147810609785665,
+        "upper": 0.03214781061069516
+      },
+      "Shift": {
+        "lower_exact": "21757296991/1099511627776",
+        "upper_exact": "679915531/34359738368",
+        "lower": 0.019788146338214574,
+        "upper": 0.01978814633912407
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "celestia",
+      "higher_observed": "polygon",
+      "Merge": {
+        "lower_exact": "118334926911/1099511627776",
+        "upper_exact": "1848983233/17179869184",
+        "lower": 0.1076249890602412,
+        "upper": 0.1076249890611507
+      },
+      "Shift": {
+        "lower_exact": "75994629693/1099511627776",
+        "upper_exact": "37997314847/549755813888",
+        "lower": 0.06911671306897915,
+        "upper": 0.06911671306988865
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "sui",
+      "higher_observed": "celestia",
+      "Merge": {
+        "lower_exact": "23267163085/274877906944",
+        "upper_exact": "93068652341/1099511627776",
+        "lower": 0.08464544620437664,
+        "upper": 0.08464544620528613
+      },
+      "Shift": {
+        "lower_exact": "61750642255/1099511627776",
+        "upper_exact": "3859415141/68719476736",
+        "lower": 0.056161881961998006,
+        "upper": 0.0561618819629075
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "celo",
+      "higher_observed": "cosmos",
+      "Merge": {
+        "lower_exact": "37026772113/549755813888",
+        "upper_exact": "74053544227/1099511627776",
+        "lower": 0.06735130612105422,
+        "upper": 0.06735130612196372
+      },
+      "Shift": {
+        "lower_exact": "19025474373/549755813888",
+        "upper_exact": "38050948747/1099511627776",
+        "lower": 0.03460713628192025,
+        "upper": 0.03460713628282974
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "celo",
+      "higher_observed": "injective",
+      "Merge": {
+        "lower_exact": "45691610853/549755813888",
+        "upper_exact": "91383221707/1099511627776",
+        "lower": 0.08311255597254785,
+        "upper": 0.08311255597345735
+      },
+      "Shift": {
+        "lower_exact": "48208952595/1099511627776",
+        "upper_exact": "12052238149/274877906944",
+        "lower": 0.04384578696317476,
+        "upper": 0.043845786964084255
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "celo",
+      "higher_observed": "osmosis",
+      "Merge": {
+        "lower_exact": "16261256303/1099511627776",
+        "upper_exact": "1016328519/68719476736",
+        "lower": 0.014789526451750135,
+        "upper": 0.01478952645265963
+      },
+      "Shift": {
+        "lower_exact": "7436746329/1099511627776",
+        "upper_exact": "3718373165/549755813888",
+        "lower": 0.006763681384654774,
+        "upper": 0.006763681385564269
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "celo",
+      "higher_observed": "polygon",
+      "Merge": {
+        "lower_exact": "2439093203/17179869184",
+        "upper_exact": "156101964993/1099511627776",
+        "lower": 0.14197391009656712,
+        "upper": 0.14197391009747662
+      },
+      "Shift": {
+        "lower_exact": "52029550975/549755813888",
+        "upper_exact": "104059101951/1099511627776",
+        "lower": 0.09464120189477399,
+        "upper": 0.09464120189568348
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "sui",
+      "higher_observed": "celo",
+      "Merge": {
+        "lower_exact": "844220809/17179869184",
+        "upper_exact": "54030131777/1099511627776",
+        "lower": 0.049140118586365134,
+        "upper": 0.04914011858727463
+      },
+      "Shift": {
+        "lower_exact": "17844555575/549755813888",
+        "upper_exact": "35689111151/1099511627776",
+        "lower": 0.03245905750191014,
+        "upper": 0.03245905750281963
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "cosmos",
+      "higher_observed": "injective",
+      "Merge": {
+        "lower_exact": "4465426467/274877906944",
+        "upper_exact": "17861705869/1099511627776",
+        "lower": 0.016245126851572422,
+        "upper": 0.016245126852481917
+      },
+      "Shift": {
+        "lower_exact": "9133988003/1099511627776",
+        "upper_exact": "2283497001/274877906944",
+        "lower": 0.00830731369478599,
+        "upper": 0.008307313695695484
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "osmosis",
+      "higher_observed": "cosmos",
+      "Merge": {
+        "lower_exact": "26474504175/549755813888",
+        "upper_exact": "52949008351/1099511627776",
+        "lower": 0.04815684255845554,
+        "upper": 0.04815684255936503
+      },
+      "Shift": {
+        "lower_exact": "3490958263/137438953472",
+        "upper_exact": "27927666105/1099511627776",
+        "lower": 0.025400064354471397,
+        "upper": 0.02540006435538089
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "cosmos",
+      "higher_observed": "polygon",
+      "Merge": {
+        "lower_exact": "83726103987/1099511627776",
+        "upper_exact": "20931525997/274877906944",
+        "lower": 0.07614844797626574,
+        "upper": 0.07614844797717524
+      },
+      "Shift": {
+        "lower_exact": "54913021231/1099511627776",
+        "upper_exact": "3432063827/68719476736",
+        "lower": 0.04994310186793882,
+        "upper": 0.049943101868848316
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "sui",
+      "higher_observed": "cosmos",
+      "Merge": {
+        "lower_exact": "54269860909/549755813888",
+        "upper_exact": "108539721819/1099511627776",
+        "lower": 0.0987163019253785,
+        "upper": 0.098716301926288
+      },
+      "Shift": {
+        "lower_exact": "63551330507/1099511627776",
+        "upper_exact": "15887832627/274877906944",
+        "lower": 0.05779959838673676,
+        "upper": 0.057799598387646256
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "osmosis",
+      "higher_observed": "injective",
+      "Merge": {
+        "lower_exact": "69509308805/1099511627776",
+        "upper_exact": "34754654403/549755813888",
+        "lower": 0.06321834808204585,
+        "upper": 0.06321834808295534
+      },
+      "Shift": {
+        "lower_exact": "37315385821/1099511627776",
+        "upper_exact": "18657692911/549755813888",
+        "lower": 0.03393814569881215,
+        "upper": 0.033938145699721645
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "injective",
+      "higher_observed": "polygon",
+      "Merge": {
+        "lower_exact": "34387941227/549755813888",
+        "upper_exact": "68775882455/1099511627776",
+        "lower": 0.0625513007016707,
+        "upper": 0.06255130070258019
+      },
+      "Shift": {
+        "lower_exact": "44456528665/1099511627776",
+        "upper_exact": "22228264333/549755813888",
+        "lower": 0.04043297728003381,
+        "upper": 0.040432977280943305
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "sui",
+      "higher_observed": "injective",
+      "Merge": {
+        "lower_exact": "61754462813/549755813888",
+        "upper_exact": "123508925627/1099511627776",
+        "lower": 0.11233071347851364,
+        "upper": 0.11233071347942314
+      },
+      "Shift": {
+        "lower_exact": "36337329515/549755813888",
+        "upper_exact": "72674659031/1099511627776",
+        "lower": 0.0660972173409391,
+        "upper": 0.06609721734184859
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "osmosis",
+      "higher_observed": "polygon",
+      "Merge": {
+        "lower_exact": "132536411911/1099511627776",
+        "upper_exact": "16567051489/137438953472",
+        "lower": 0.12054116442504892,
+        "upper": 0.12054116442595841
+      },
+      "Shift": {
+        "lower_exact": "88746595557/1099511627776",
+        "upper_exact": "44373297779/549755813888",
+        "lower": 0.0807145584594764,
+        "upper": 0.08071455846038589
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "sui",
+      "higher_observed": "osmosis",
+      "Merge": {
+        "lower_exact": "64075340679/1099511627776",
+        "upper_exact": "8009417585/137438953472",
+        "lower": 0.05827618286184588,
+        "upper": 0.05827618286275538
+      },
+      "Shift": {
+        "lower_exact": "2274895035/68719476736",
+        "upper_exact": "36398320561/1099511627776",
+        "lower": 0.03310407970275264,
+        "upper": 0.03310407970366214
+      }
+    },
+    {
+      "metric": "HHI",
+      "lower_observed": "sui",
+      "higher_observed": "polygon",
+      "Merge": {
+        "lower_exact": "91273609279/549755813888",
+        "upper_exact": "182547218559/1099511627776",
+        "lower": 0.16602572810188576,
+        "upper": 0.16602572810279526
+      },
+      "Shift": {
+        "lower_exact": "125822446831/1099511627776",
+        "upper_exact": "7863902927/68719476736",
+        "lower": 0.11443484875690046,
+        "upper": 0.11443484875780996
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "axelar",
+      "higher_observed": "aptos",
+      "Merge": {
+        "lower_exact": "126377428439/1099511627776",
+        "upper_exact": "15797178555/137438953472",
+        "lower": 0.11493960158895788,
+        "upper": 0.11493960158986738
+      },
+      "Shift": {
+        "lower_exact": "38429801301/549755813888",
+        "upper_exact": "76859602603/1099511627776",
+        "lower": 0.06990340134689177,
+        "upper": 0.06990340134780126
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "binance",
+      "higher_observed": "aptos",
+      "Merge": {
+        "lower_exact": "189988839295/1099511627776",
+        "upper_exact": "1484287807/8589934592",
+        "lower": 0.17279384273479081,
+        "upper": 0.1727938427357003
+      },
+      "Shift": {
+        "lower_exact": "156570454223/1099511627776",
+        "upper_exact": "9785653389/68719476736",
+        "lower": 0.1423999985699993,
+        "upper": 0.1423999985709088
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "celestia",
+      "higher_observed": "aptos",
+      "Merge": {
+        "lower_exact": "103954357819/549755813888",
+        "upper_exact": "207908715639/1099511627776",
+        "lower": 0.18909187532517535,
+        "upper": 0.18909187532608485
+      },
+      "Shift": {
+        "lower_exact": "69895444065/549755813888",
+        "upper_exact": "139790888131/1099511627776",
+        "lower": 0.12713907211036712,
+        "upper": 0.12713907211127662
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "celo",
+      "higher_observed": "aptos",
+      "Merge": {
+        "lower_exact": "56167531295/549755813888",
+        "upper_exact": "112335062591/1099511627776",
+        "lower": 0.10216814424893528,
+        "upper": 0.10216814424984477
+      },
+      "Shift": {
+        "lower_exact": "17979088655/274877906944",
+        "upper_exact": "71916354621/1099511627776",
+        "lower": 0.06540754349771305,
+        "upper": 0.06540754349862254
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "cosmos",
+      "higher_observed": "aptos",
+      "Merge": {
+        "lower_exact": "103954357819/549755813888",
+        "upper_exact": "207908715639/1099511627776",
+        "lower": 0.18909187532517535,
+        "upper": 0.18909187532608485
+      },
+      "Shift": {
+        "lower_exact": "132920423167/1099511627776",
+        "upper_exact": "519220403/4294967296",
+        "lower": 0.12089042062780209,
+        "upper": 0.12089042062871158
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "injective",
+      "higher_observed": "aptos",
+      "Merge": {
+        "lower_exact": "103954357819/549755813888",
+        "upper_exact": "207908715639/1099511627776",
+        "lower": 0.18909187532517535,
+        "upper": 0.18909187532608485
+      },
+      "Shift": {
+        "lower_exact": "32431105195/274877906944",
+        "upper_exact": "129724420781/1099511627776",
+        "lower": 0.11798367338997195,
+        "upper": 0.11798367339088145
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "osmosis",
+      "higher_observed": "aptos",
+      "Merge": {
+        "lower_exact": "156570454223/1099511627776",
+        "upper_exact": "9785653389/68719476736",
+        "lower": 0.1423999985699993,
+        "upper": 0.1423999985709088
+      },
+      "Shift": {
+        "lower_exact": "78923872675/1099511627776",
+        "upper_exact": "19730968169/274877906944",
+        "lower": 0.07178084404131369,
+        "upper": 0.07178084404222318
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "polygon",
+      "higher_observed": "aptos",
+      "Merge": {
+        "lower_exact": "264175333741/1099511627776",
+        "upper_exact": "132087666871/549755813888",
+        "lower": 0.24026606637653458,
+        "upper": 0.24026606637744408
+      },
+      "Shift": {
+        "lower_exact": "189988839295/1099511627776",
+        "upper_exact": "1484287807/8589934592",
+        "lower": 0.17279384273479081,
+        "upper": 0.1727938427357003
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "sui",
+      "higher_observed": "aptos",
+      "Merge": {
+        "lower_exact": "7355010177/137438953472",
+        "upper_exact": "58840081417/1099511627776",
+        "lower": 0.05351474229973974,
+        "upper": 0.05351474230064923
+      },
+      "Shift": {
+        "lower_exact": "16451076471/549755813888",
+        "upper_exact": "32902152943/1099511627776",
+        "lower": 0.029924333777671563,
+        "upper": 0.029924333778581058
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "binance",
+      "higher_observed": "axelar",
+      "Merge": {
+        "lower_exact": "86158642649/1099511627776",
+        "upper_exact": "43079321325/549755813888",
+        "lower": 0.07836082900121255,
+        "upper": 0.07836082900212205
+      },
+      "Shift": {
+        "lower_exact": "7762182241/137438953472",
+        "upper_exact": "62097457929/1099511627776",
+        "lower": 0.05647730897908332,
+        "upper": 0.05647730897999281
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "celestia",
+      "higher_observed": "axelar",
+      "Merge": {
+        "lower_exact": "55691206063/549755813888",
+        "upper_exact": "111382412127/1099511627776",
+        "lower": 0.10130171369928576,
+        "upper": 0.10130171370019525
+      },
+      "Shift": {
+        "lower_exact": "7762182241/137438953472",
+        "upper_exact": "62097457929/1099511627776",
+        "lower": 0.05647730897908332,
+        "upper": 0.05647730897999281
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "axelar",
+      "higher_observed": "celo",
+      "Merge": {
+        "lower_exact": "287761505/1099511627776",
+        "upper_exact": "143880753/549755813888",
+        "lower": 0.000261717564171704,
+        "upper": 0.0002617175650811987
+      },
+      "Shift": {
+        "lower_exact": "287761505/1099511627776",
+        "upper_exact": "143880753/549755813888",
+        "lower": 0.000261717564171704,
+        "upper": 0.0002617175650811987
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "cosmos",
+      "higher_observed": "axelar",
+      "Merge": {
+        "lower_exact": "55691206063/549755813888",
+        "upper_exact": "111382412127/1099511627776",
+        "lower": 0.10130171369928576,
+        "upper": 0.10130171370019525
+      },
+      "Shift": {
+        "lower_exact": "7762182241/137438953472",
+        "upper_exact": "62097457929/1099511627776",
+        "lower": 0.05647730897908332,
+        "upper": 0.05647730897999281
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "injective",
+      "higher_observed": "axelar",
+      "Merge": {
+        "lower_exact": "55691206063/549755813888",
+        "upper_exact": "111382412127/1099511627776",
+        "lower": 0.10130171369928576,
+        "upper": 0.10130171370019525
+      },
+      "Shift": {
+        "lower_exact": "7762182241/137438953472",
+        "upper_exact": "62097457929/1099511627776",
+        "lower": 0.05647730897908332,
+        "upper": 0.05647730897999281
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "osmosis",
+      "higher_observed": "axelar",
+      "Merge": {
+        "lower_exact": "2396813959/68719476736",
+        "upper_exact": "38349023345/1099511627776",
+        "lower": 0.03487823354953434,
+        "upper": 0.03487823355044384
+      },
+      "Shift": {
+        "lower_exact": "7340044511/549755813888",
+        "upper_exact": "14680089023/1099511627776",
+        "lower": 0.013351463187063928,
+        "upper": 0.013351463187973422
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "polygon",
+      "higher_observed": "axelar",
+      "Merge": {
+        "lower_exact": "48179493919/274877906944",
+        "upper_exact": "192717975677/1099511627776",
+        "lower": 0.17527597781372606,
+        "upper": 0.17527597781463555
+      },
+      "Shift": {
+        "lower_exact": "137287230977/1099511627776",
+        "upper_exact": "68643615489/549755813888",
+        "lower": 0.12486200919465773,
+        "upper": 0.12486200919556723
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "axelar",
+      "higher_observed": "sui",
+      "Merge": {
+        "lower_exact": "73775663199/1099511627776",
+        "upper_exact": "2305489475/34359738368",
+        "lower": 0.0670985747992745,
+        "upper": 0.067098574800184
+      },
+      "Shift": {
+        "lower_exact": "38754419333/1099511627776",
+        "upper_exact": "19377209667/549755813888",
+        "lower": 0.03524693905364984,
+        "upper": 0.035246939054559334
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "celestia",
+      "higher_observed": "binance",
+      "Merge": {
+        "lower_exact": "30841609517/1099511627776",
+        "upper_exact": "15420804759/549755813888",
+        "lower": 0.02805028044986102,
+        "upper": 0.028050280450770515
+      },
+      "Shift": {
+        "lower_exact": "16565324401/1099511627776",
+        "upper_exact": "8282662201/549755813888",
+        "lower": 0.015066074775859306,
+        "upper": 0.0150660747767688
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "binance",
+      "higher_observed": "celo",
+      "Merge": {
+        "lower_exact": "94017936325/1099511627776",
+        "upper_exact": "47008968163/549755813888",
+        "lower": 0.08550881495921203,
+        "upper": 0.08550881496012153
+      },
+      "Shift": {
+        "lower_exact": "69159708839/1099511627776",
+        "upper_exact": "8644963605/137438953472",
+        "lower": 0.06290038876522885,
+        "upper": 0.06290038876613835
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "cosmos",
+      "higher_observed": "binance",
+      "Merge": {
+        "lower_exact": "30841609517/1099511627776",
+        "upper_exact": "15420804759/549755813888",
+        "lower": 0.02805028044986102,
+        "upper": 0.028050280450770515
+      },
+      "Shift": {
+        "lower_exact": "9620177307/549755813888",
+        "upper_exact": "19240354615/1099511627776",
+        "lower": 0.017499000581665314,
+        "upper": 0.01749900058257481
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "injective",
+      "higher_observed": "binance",
+      "Merge": {
+        "lower_exact": "30841609517/1099511627776",
+        "upper_exact": "15420804759/549755813888",
+        "lower": 0.02805028044986102,
+        "upper": 0.028050280450770515
+      },
+      "Shift": {
+        "lower_exact": "9124216425/549755813888",
+        "upper_exact": "18248432851/1099511627776",
+        "lower": 0.016596852992734057,
+        "upper": 0.01659685299364355
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "binance",
+      "higher_observed": "osmosis",
+      "Merge": {
+        "lower_exact": "12966172309/549755813888",
+        "upper_exact": "25932344619/1099511627776",
+        "lower": 0.02358533003462071,
+        "upper": 0.023585330035530205
+      },
+      "Shift": {
+        "lower_exact": "3593388921/274877906944",
+        "upper_exact": "14373555685/1099511627776",
+        "lower": 0.013072672740236158,
+        "upper": 0.013072672741145652
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "polygon",
+      "higher_observed": "binance",
+      "Merge": {
+        "lower_exact": "168414493785/1099511627776",
+        "upper_exact": "84207246893/549755813888",
+        "lower": 0.15317208979922725,
+        "upper": 0.15317208980013675
+      },
+      "Shift": {
+        "lower_exact": "82951071401/1099511627776",
+        "upper_exact": "41475535701/549755813888",
+        "lower": 0.07544355994559737,
+        "upper": 0.07544355994650687
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "binance",
+      "higher_observed": "sui",
+      "Merge": {
+        "lower_exact": "148825191627/1099511627776",
+        "upper_exact": "37206297907/274877906944",
+        "lower": 0.13535572327509726,
+        "upper": 0.13535572327600676
+      },
+      "Shift": {
+        "lower_exact": "109711569897/1099511627776",
+        "upper_exact": "54855784949/549755813888",
+        "lower": 0.09978209154451179,
+        "upper": 0.09978209154542128
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "celestia",
+      "higher_observed": "celo",
+      "Merge": {
+        "lower_exact": "3721529955/34359738368",
+        "upper_exact": "119088958561/1099511627776",
+        "lower": 0.10831077684997581,
+        "upper": 0.1083107768508853
+      },
+      "Shift": {
+        "lower_exact": "69159708839/1099511627776",
+        "upper_exact": "8644963605/137438953472",
+        "lower": 0.06290038876522885,
+        "upper": 0.06290038876613835
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "celestia",
+      "higher_observed": "osmosis",
+      "Merge": {
+        "lower_exact": "41849393359/1099511627776",
+        "upper_exact": "2615587085/68719476736",
+        "lower": 0.03806180153242167,
+        "upper": 0.03806180153333116
+      },
+      "Shift": {
+        "lower_exact": "12966172309/549755813888",
+        "upper_exact": "25932344619/1099511627776",
+        "lower": 0.02358533003462071,
+        "upper": 0.023585330035530205
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "polygon",
+      "higher_observed": "celestia",
+      "Merge": {
+        "lower_exact": "30189079929/274877906944",
+        "upper_exact": "120756319717/1099511627776",
+        "lower": 0.1098272329872998,
+        "upper": 0.10982723298820929
+      },
+      "Shift": {
+        "lower_exact": "72343891071/1099511627776",
+        "upper_exact": "565186649/8589934592",
+        "lower": 0.06579638563471235,
+        "upper": 0.06579638563562185
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "celestia",
+      "higher_observed": "sui",
+      "Merge": {
+        "lower_exact": "42150931341/274877906944",
+        "upper_exact": "168603725365/1099511627776",
+        "lower": 0.15334419491773588,
+        "upper": 0.15334419491864537
+      },
+      "Shift": {
+        "lower_exact": "109711569897/1099511627776",
+        "upper_exact": "54855784949/549755813888",
+        "lower": 0.09978209154451179,
+        "upper": 0.09978209154542128
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "cosmos",
+      "higher_observed": "celo",
+      "Merge": {
+        "lower_exact": "3721529955/34359738368",
+        "upper_exact": "119088958561/1099511627776",
+        "lower": 0.10831077684997581,
+        "upper": 0.1083107768508853
+      },
+      "Shift": {
+        "lower_exact": "69159708839/1099511627776",
+        "upper_exact": "8644963605/137438953472",
+        "lower": 0.06290038876522885,
+        "upper": 0.06290038876613835
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "injective",
+      "higher_observed": "celo",
+      "Merge": {
+        "lower_exact": "3721529955/34359738368",
+        "upper_exact": "119088958561/1099511627776",
+        "lower": 0.10831077684997581,
+        "upper": 0.1083107768508853
+      },
+      "Shift": {
+        "lower_exact": "69159708839/1099511627776",
+        "upper_exact": "8644963605/137438953472",
+        "lower": 0.06290038876522885,
+        "upper": 0.06290038876613835
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "osmosis",
+      "higher_observed": "celo",
+      "Merge": {
+        "lower_exact": "45188250869/1099511627776",
+        "upper_exact": "22594125435/549755813888",
+        "lower": 0.04109847474774142,
+        "upper": 0.041098474748650915
+      },
+      "Shift": {
+        "lower_exact": "20704670885/1099511627776",
+        "upper_exact": "10352335443/549755813888",
+        "lower": 0.018830788471859705,
+        "upper": 0.0188307884727692
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "polygon",
+      "higher_observed": "celo",
+      "Merge": {
+        "lower_exact": "203279565105/1099511627776",
+        "upper_exact": "101639782553/549755813888",
+        "lower": 0.18488168744170252,
+        "upper": 0.18488168744261202
+      },
+      "Shift": {
+        "lower_exact": "8668710105/68719476736",
+        "upper_exact": "138699361681/1099511627776",
+        "lower": 0.1261463345872471,
+        "upper": 0.1261463345881566
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "celo",
+      "higher_observed": "sui",
+      "Merge": {
+        "lower_exact": "1750129799/34359738368",
+        "upper_exact": "56004153569/1099511627776",
+        "lower": 0.050935480947373435,
+        "upper": 0.05093548094828293
+      },
+      "Shift": {
+        "lower_exact": "38754419333/1099511627776",
+        "upper_exact": "19377209667/549755813888",
+        "lower": 0.03524693905364984,
+        "upper": 0.035246939054559334
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "cosmos",
+      "higher_observed": "osmosis",
+      "Merge": {
+        "lower_exact": "41849393359/1099511627776",
+        "upper_exact": "2615587085/68719476736",
+        "lower": 0.03806180153242167,
+        "upper": 0.03806180153333116
+      },
+      "Shift": {
+        "lower_exact": "12966172309/549755813888",
+        "upper_exact": "25932344619/1099511627776",
+        "lower": 0.02358533003462071,
+        "upper": 0.023585330035530205
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "polygon",
+      "higher_observed": "cosmos",
+      "Merge": {
+        "lower_exact": "12189371551/137438953472",
+        "upper_exact": "97514972409/1099511627776",
+        "lower": 0.08868935074860929,
+        "upper": 0.08868935074951878
+      },
+      "Shift": {
+        "lower_exact": "28897727575/549755813888",
+        "upper_exact": "57795455151/1099511627776",
+        "lower": 0.0525646602454799,
+        "upper": 0.052564660246389394
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "cosmos",
+      "higher_observed": "sui",
+      "Merge": {
+        "lower_exact": "42150931341/274877906944",
+        "upper_exact": "168603725365/1099511627776",
+        "lower": 0.15334419491773588,
+        "upper": 0.15334419491864537
+      },
+      "Shift": {
+        "lower_exact": "27272288501/274877906944",
+        "upper_exact": "109089154005/1099511627776",
+        "lower": 0.09921600758752902,
+        "upper": 0.09921600758843852
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "injective",
+      "higher_observed": "osmosis",
+      "Merge": {
+        "lower_exact": "41849393359/1099511627776",
+        "upper_exact": "2615587085/68719476736",
+        "lower": 0.03806180153242167,
+        "upper": 0.03806180153333116
+      },
+      "Shift": {
+        "lower_exact": "12966172309/549755813888",
+        "upper_exact": "25932344619/1099511627776",
+        "lower": 0.02358533003462071,
+        "upper": 0.023585330035530205
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "polygon",
+      "higher_observed": "injective",
+      "Merge": {
+        "lower_exact": "90210269243/1099511627776",
+        "upper_exact": "22552567311/274877906944",
+        "lower": 0.08204576192201785,
+        "upper": 0.08204576192292734
+      },
+      "Shift": {
+        "lower_exact": "6279161103/137438953472",
+        "upper_exact": "50233288825/1099511627776",
+        "lower": 0.04568691003805725,
+        "upper": 0.045686910038966744
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "injective",
+      "higher_observed": "sui",
+      "Merge": {
+        "lower_exact": "42150931341/274877906944",
+        "upper_exact": "168603725365/1099511627776",
+        "lower": 0.15334419491773588,
+        "upper": 0.15334419491864537
+      },
+      "Shift": {
+        "lower_exact": "51137719161/549755813888",
+        "upper_exact": "102275438323/1099511627776",
+        "lower": 0.0930189692753629,
+        "upper": 0.0930189692762724
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "polygon",
+      "higher_observed": "osmosis",
+      "Merge": {
+        "lower_exact": "126202631969/1099511627776",
+        "upper_exact": "63101315985/549755813888",
+        "lower": 0.11478062512560427,
+        "upper": 0.11478062512651377
+      },
+      "Shift": {
+        "lower_exact": "40670615653/549755813888",
+        "upper_exact": "81341231307/1099511627776",
+        "lower": 0.07397941890849324,
+        "upper": 0.07397941890940274
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "osmosis",
+      "higher_observed": "sui",
+      "Merge": {
+        "lower_exact": "109711569897/1099511627776",
+        "upper_exact": "54855784949/549755813888",
+        "lower": 0.09978209154451179,
+        "upper": 0.09978209154542128
+      },
+      "Shift": {
+        "lower_exact": "25154413929/549755813888",
+        "upper_exact": "50308827859/1099511627776",
+        "lower": 0.045755612389257294,
+        "upper": 0.04575561239016679
+      }
+    },
+    {
+      "metric": "NC_1/3",
+      "lower_observed": "polygon",
+      "higher_observed": "sui",
+      "Merge": {
+        "lower_exact": "236941897961/1099511627776",
+        "upper_exact": "118470948981/549755813888",
+        "lower": 0.2154974008235513,
+        "upper": 0.21549740082446078
+      },
+      "Shift": {
+        "lower_exact": "42150931341/274877906944",
+        "upper_exact": "168603725365/1099511627776",
+        "lower": 0.15334419491773588,
+        "upper": 0.15334419491864537
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "axelar",
+      "higher_observed": "aptos",
+      "Merge": {
+        "lower_exact": "7799161609/34359738368",
+        "upper_exact": "249573171489/1099511627776",
+        "lower": 0.22698547717300244,
+        "upper": 0.22698547717391193
+      },
+      "Shift": {
+        "lower_exact": "68065116295/549755813888",
+        "upper_exact": "136130232591/1099511627776",
+        "lower": 0.1238097252917214,
+        "upper": 0.1238097252926309
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "binance",
+      "higher_observed": "aptos",
+      "Merge": {
+        "lower_exact": "212671978671/549755813888",
+        "upper_exact": "425343957343/1099511627776",
+        "lower": 0.3868480756336794,
+        "upper": 0.3868480756345889
+      },
+      "Shift": {
+        "lower_exact": "292880690707/1099511627776",
+        "upper_exact": "73220172677/274877906944",
+        "lower": 0.2663734364496122,
+        "upper": 0.2663734364505217
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "celestia",
+      "higher_observed": "aptos",
+      "Merge": {
+        "lower_exact": "286706569671/1099511627776",
+        "upper_exact": "35838321209/137438953472",
+        "lower": 0.2607581060792654,
+        "upper": 0.2607581060801749
+      },
+      "Shift": {
+        "lower_exact": "58327393959/549755813888",
+        "upper_exact": "116654787919/1099511627776",
+        "lower": 0.1060969115478656,
+        "upper": 0.1060969115487751
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "celo",
+      "higher_observed": "aptos",
+      "Merge": {
+        "lower_exact": "224994511101/1099511627776",
+        "upper_exact": "112497255551/549755813888",
+        "lower": 0.2046313157743498,
+        "upper": 0.20463131577525928
+      },
+      "Shift": {
+        "lower_exact": "58327393959/549755813888",
+        "upper_exact": "116654787919/1099511627776",
+        "lower": 0.1060969115478656,
+        "upper": 0.1060969115487751
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "cosmos",
+      "higher_observed": "aptos",
+      "Merge": {
+        "lower_exact": "323909512557/1099511627776",
+        "upper_exact": "161954756279/549755813888",
+        "lower": 0.29459398552444327,
+        "upper": 0.29459398552535276
+      },
+      "Shift": {
+        "lower_exact": "128029338163/1099511627776",
+        "upper_exact": "32007334541/274877906944",
+        "lower": 0.11644200473074307,
+        "upper": 0.11644200473165256
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "injective",
+      "higher_observed": "aptos",
+      "Merge": {
+        "lower_exact": "174374826677/549755813888",
+        "upper_exact": "348749653355/1099511627776",
+        "lower": 0.31718596197060833,
+        "upper": 0.3171859619715178
+      },
+      "Shift": {
+        "lower_exact": "89593290475/549755813888",
+        "upper_exact": "179186580951/1099511627776",
+        "lower": 0.16296924600283091,
+        "upper": 0.1629692460037404
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "osmosis",
+      "higher_observed": "aptos",
+      "Merge": {
+        "lower_exact": "58327393959/549755813888",
+        "upper_exact": "116654787919/1099511627776",
+        "lower": 0.1060969115478656,
+        "upper": 0.1060969115487751
+      },
+      "Shift": {
+        "lower_exact": "47957848185/1099511627776",
+        "upper_exact": "23978924093/549755813888",
+        "lower": 0.04361740883268794,
+        "upper": 0.04361740883359744
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "polygon",
+      "higher_observed": "aptos",
+      "Merge": {
+        "lower_exact": "123220326091/274877906944",
+        "upper_exact": "492881304365/1099511627776",
+        "lower": 0.44827293492198805,
+        "upper": 0.44827293492289755
+      },
+      "Shift": {
+        "lower_exact": "281604325627/1099511627776",
+        "upper_exact": "70401081407/274877906944",
+        "lower": 0.25611764215409494,
+        "upper": 0.25611764215500443
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "sui",
+      "higher_observed": "aptos",
+      "Merge": {
+        "lower_exact": "94056111759/1099511627776",
+        "upper_exact": "5878506985/68719476736",
+        "lower": 0.08554353531417291,
+        "upper": 0.08554353531508241
+      },
+      "Shift": {
+        "lower_exact": "49833926731/1099511627776",
+        "upper_exact": "12458481683/274877906944",
+        "lower": 0.0453236923303848,
+        "upper": 0.045323692331294296
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "binance",
+      "higher_observed": "axelar",
+      "Merge": {
+        "lower_exact": "247530383335/1099511627776",
+        "upper_exact": "30941297917/137438953472",
+        "lower": 0.22512757217100443,
+        "upper": 0.22512757217191393
+      },
+      "Shift": {
+        "lower_exact": "20945673455/137438953472",
+        "upper_exact": "167565387641/1099511627776",
+        "lower": 0.15239983225910692,
+        "upper": 0.1523998322600164
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "celestia",
+      "higher_observed": "axelar",
+      "Merge": {
+        "lower_exact": "40312129515/1099511627776",
+        "upper_exact": "10078032379/274877906944",
+        "lower": 0.03666366821107658,
+        "upper": 0.03666366821198608
+      },
+      "Shift": {
+        "lower_exact": "17510814427/1099511627776",
+        "upper_exact": "4377703607/274877906944",
+        "lower": 0.015925992945085454,
+        "upper": 0.01592599294599495
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "axelar",
+      "higher_observed": "celo",
+      "Merge": {
+        "lower_exact": "1517294439/68719476736",
+        "upper_exact": "24276711025/1099511627776",
+        "lower": 0.02207954005280044,
+        "upper": 0.022079540053709934
+      },
+      "Shift": {
+        "lower_exact": "5334465863/549755813888",
+        "upper_exact": "10668931727/1099511627776",
+        "lower": 0.009703336878374103,
+        "upper": 0.009703336879283597
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "cosmos",
+      "higher_observed": "axelar",
+      "Merge": {
+        "lower_exact": "11472566515/137438953472",
+        "upper_exact": "91780532121/1099511627776",
+        "lower": 0.08347390768904006,
+        "upper": 0.08347390768994956
+      },
+      "Shift": {
+        "lower_exact": "40312129515/1099511627776",
+        "upper_exact": "10078032379/274877906944",
+        "lower": 0.03666366821107658,
+        "upper": 0.03666366821198608
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "injective",
+      "higher_observed": "axelar",
+      "Merge": {
+        "lower_exact": "64100617379/549755813888",
+        "upper_exact": "128201234759/1099511627776",
+        "lower": 0.11659834377314837,
+        "upper": 0.11659834377405787
+      },
+      "Shift": {
+        "lower_exact": "7135668473/137438953472",
+        "upper_exact": "57085347785/1099511627776",
+        "lower": 0.05191882135841297,
+        "upper": 0.051918821359322465
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "axelar",
+      "higher_observed": "osmosis",
+      "Merge": {
+        "lower_exact": "99396755101/1099511627776",
+        "upper_exact": "49698377551/549755813888",
+        "lower": 0.09040082213778078,
+        "upper": 0.09040082213869027
+      },
+      "Shift": {
+        "lower_exact": "30210979265/549755813888",
+        "upper_exact": "60421958531/1099511627776",
+        "lower": 0.05495345115377859,
+        "upper": 0.05495345115468808
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "polygon",
+      "higher_observed": "axelar",
+      "Merge": {
+        "lower_exact": "357549580531/1099511627776",
+        "upper_exact": "89387395133/274877906944",
+        "lower": 0.32518944911407743,
+        "upper": 0.32518944911498693
+      },
+      "Shift": {
+        "lower_exact": "49433218963/274877906944",
+        "upper_exact": "197732875853/1099511627776",
+        "lower": 0.17983700295371818,
+        "upper": 0.17983700295462768
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "axelar",
+      "higher_observed": "sui",
+      "Merge": {
+        "lower_exact": "4610471115/34359738368",
+        "upper_exact": "147535075681/1099511627776",
+        "lower": 0.134182369656628,
+        "upper": 0.1341823696575375
+      },
+      "Shift": {
+        "lower_exact": "82956031695/1099511627776",
+        "upper_exact": "5184751981/68719476736",
+        "lower": 0.07544807130670961,
+        "upper": 0.0754480713076191
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "binance",
+      "higher_observed": "celestia",
+      "Merge": {
+        "lower_exact": "62028937485/549755813888",
+        "upper_exact": "124057874971/1099511627776",
+        "lower": 0.11282997999842337,
+        "upper": 0.11282997999933286
+      },
+      "Shift": {
+        "lower_exact": "97814212137/1099511627776",
+        "upper_exact": "48907106069/549755813888",
+        "lower": 0.08896150769669475,
+        "upper": 0.08896150769760425
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "binance",
+      "higher_observed": "celo",
+      "Merge": {
+        "lower_exact": "66480663281/274877906944",
+        "upper_exact": "265922653125/1099511627776",
+        "lower": 0.24185524409767822,
+        "upper": 0.24185524409858772
+      },
+      "Shift": {
+        "lower_exact": "188987927737/1099511627776",
+        "upper_exact": "94493963869/549755813888",
+        "lower": 0.17188351897584653,
+        "upper": 0.17188351897675602
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "binance",
+      "higher_observed": "cosmos",
+      "Merge": {
+        "lower_exact": "105975255237/1099511627776",
+        "upper_exact": "52987627619/549755813888",
+        "lower": 0.09638393315708527,
+        "upper": 0.09638393315799476
+      },
+      "Shift": {
+        "lower_exact": "82762895141/1099511627776",
+        "upper_exact": "41381447571/549755813888",
+        "lower": 0.07527241463412793,
+        "upper": 0.07527241463503742
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "binance",
+      "higher_observed": "injective",
+      "Merge": {
+        "lower_exact": "26287767613/274877906944",
+        "upper_exact": "105151070453/1099511627776",
+        "lower": 0.0956343414618459,
+        "upper": 0.0956343414627554
+      },
+      "Shift": {
+        "lower_exact": "82762895141/1099511627776",
+        "upper_exact": "41381447571/549755813888",
+        "lower": 0.07527241463412793,
+        "upper": 0.07527241463503742
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "binance",
+      "higher_observed": "osmosis",
+      "Merge": {
+        "lower_exact": "260057218999/1099511627776",
+        "upper_exact": "32507152375/137438953472",
+        "lower": 0.2365206628373926,
+        "upper": 0.2365206628383021
+      },
+      "Shift": {
+        "lower_exact": "49857367/268435456",
+        "upper_exact": "204215775233/1099511627776",
+        "lower": 0.18573316559195518,
+        "upper": 0.18573316559286468
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "polygon",
+      "higher_observed": "binance",
+      "Merge": {
+        "lower_exact": "87729327865/549755813888",
+        "upper_exact": "175458655731/1099511627776",
+        "lower": 0.15957871776663524,
+        "upper": 0.15957871776754473
+      },
+      "Shift": {
+        "lower_exact": "20885484263/274877906944",
+        "upper_exact": "83541937053/1099511627776",
+        "lower": 0.07598094912464148,
+        "upper": 0.07598094912555098
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "binance",
+      "higher_observed": "sui",
+      "Merge": {
+        "lower_exact": "177252476027/549755813888",
+        "upper_exact": "354504952055/1099511627776",
+        "lower": 0.32242037564537895,
+        "upper": 0.32242037564628845
+      },
+      "Shift": {
+        "lower_exact": "247624093809/1099511627776",
+        "upper_exact": "123812046905/549755813888",
+        "lower": 0.22521280135060806,
+        "upper": 0.22521280135151756
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "celestia",
+      "higher_observed": "celo",
+      "Merge": {
+        "lower_exact": "66550164463/1099511627776",
+        "upper_exact": "4159385279/68719476736",
+        "lower": 0.06052702198121551,
+        "upper": 0.06052702198212501
+      },
+      "Shift": {
+        "lower_exact": "6960260093/274877906944",
+        "upper_exact": "27841040373/1099511627776",
+        "lower": 0.025321278710180195,
+        "upper": 0.02532127871108969
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "cosmos",
+      "higher_observed": "celestia",
+      "Merge": {
+        "lower_exact": "25402364851/1099511627776",
+        "upper_exact": "6350591213/274877906944",
+        "lower": 0.02310331624448736,
+        "upper": 0.023103316245396854
+      },
+      "Shift": {
+        "lower_exact": "7098243899/549755813888",
+        "upper_exact": "14196487799/1099511627776",
+        "lower": 0.012911630436065025,
+        "upper": 0.01291163043697452
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "injective",
+      "higher_observed": "celestia",
+      "Merge": {
+        "lower_exact": "379186395/8589934592",
+        "upper_exact": "48535858561/1099511627776",
+        "lower": 0.044143106206320226,
+        "upper": 0.04414310620722972
+      },
+      "Shift": {
+        "lower_exact": "25402364851/1099511627776",
+        "upper_exact": "6350591213/274877906944",
+        "lower": 0.02310331624448736,
+        "upper": 0.023103316245396854
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "celestia",
+      "higher_observed": "osmosis",
+      "Merge": {
+        "lower_exact": "130227293249/1099511627776",
+        "upper_exact": "65113646625/549755813888",
+        "lower": 0.11844103323619493,
+        "upper": 0.11844103323710442
+      },
+      "Shift": {
+        "lower_exact": "3970107503/68719476736",
+        "upper_exact": "63521720049/1099511627776",
+        "lower": 0.0577726678311592,
+        "upper": 0.05777266783206869
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "polygon",
+      "higher_observed": "celestia",
+      "Merge": {
+        "lower_exact": "205113529645/1099511627776",
+        "upper_exact": "102556764823/549755813888",
+        "lower": 0.18654966847407195,
+        "upper": 0.18654966847498144
+      },
+      "Shift": {
+        "lower_exact": "34049390827/274877906944",
+        "upper_exact": "136197563309/1099511627776",
+        "lower": 0.12387096222300897,
+        "upper": 0.12387096222391847
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "celestia",
+      "higher_observed": "sui",
+      "Merge": {
+        "lower_exact": "92680104969/549755813888",
+        "upper_exact": "185360209939/1099511627776",
+        "lower": 0.16858412885812868,
+        "upper": 0.16858412885903817
+      },
+      "Shift": {
+        "lower_exact": "2509470589/34359738368",
+        "upper_exact": "80303058849/1099511627776",
+        "lower": 0.07303520655841567,
+        "upper": 0.07303520655932516
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "cosmos",
+      "higher_observed": "celo",
+      "Merge": {
+        "lower_exact": "57885823939/549755813888",
+        "upper_exact": "115771647879/1099511627776",
+        "lower": 0.10529370036056207,
+        "upper": 0.10529370036147156
+      },
+      "Shift": {
+        "lower_exact": "50423802039/1099511627776",
+        "upper_exact": "6302975255/137438953472",
+        "lower": 0.045860180797717476,
+        "upper": 0.04586018079862697
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "injective",
+      "higher_observed": "celo",
+      "Merge": {
+        "lower_exact": "151895857007/1099511627776",
+        "upper_exact": "9493491063/68719476736",
+        "lower": 0.13814847716912482,
+        "upper": 0.1381484771700343
+      },
+      "Shift": {
+        "lower_exact": "66550164463/1099511627776",
+        "upper_exact": "4159385279/68719476736",
+        "lower": 0.06052702198121551,
+        "upper": 0.06052702198212501
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "celo",
+      "higher_observed": "osmosis",
+      "Merge": {
+        "lower_exact": "79636407717/1099511627776",
+        "upper_exact": "39818203859/549755813888",
+        "lower": 0.07242889088684024,
+        "upper": 0.07242889088774973
+      },
+      "Shift": {
+        "lower_exact": "21534063983/549755813888",
+        "upper_exact": "43068127967/1099511627776",
+        "lower": 0.03917023420035548,
+        "upper": 0.039170234201264975
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "polygon",
+      "higher_observed": "celo",
+      "Merge": {
+        "lower_exact": "183395818715/549755813888",
+        "upper_exact": "366791637431/1099511627776",
+        "lower": 0.3335950508972019,
+        "upper": 0.33359505089811137
+      },
+      "Shift": {
+        "lower_exact": "207733931263/1099511627776",
+        "upper_exact": "811460669/4294967296",
+        "lower": 0.18893290986216016,
+        "upper": 0.18893290986306965
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "celo",
+      "higher_observed": "sui",
+      "Merge": {
+        "lower_exact": "15327416905/137438953472",
+        "upper_exact": "122619335241/1099511627776",
+        "lower": 0.11152163573569851,
+        "upper": 0.111521635736608
+      },
+      "Shift": {
+        "lower_exact": "61941659789/1099511627776",
+        "upper_exact": "30970829895/549755813888",
+        "lower": 0.056335611397116736,
+        "upper": 0.05633561139802623
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "injective",
+      "higher_observed": "cosmos",
+      "Merge": {
+        "lower_exact": "727028807/68719476736",
+        "upper_exact": "11632460913/1099511627776",
+        "lower": 0.010579661568044685,
+        "upper": 0.01057966156895418
+      },
+      "Shift": {
+        "lower_exact": "190235297/274877906944",
+        "upper_exact": "760941189/1099511627776",
+        "lower": 0.0006920719788467977,
+        "upper": 0.0006920719797562924
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "cosmos",
+      "higher_observed": "osmosis",
+      "Merge": {
+        "lower_exact": "162611728905/1099511627776",
+        "upper_exact": "81305864453/549755813888",
+        "lower": 0.14789450588523323,
+        "upper": 0.14789450588614272
+      },
+      "Shift": {
+        "lower_exact": "79636407717/1099511627776",
+        "upper_exact": "39818203859/549755813888",
+        "lower": 0.07242889088684024,
+        "upper": 0.07242889088774973
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "polygon",
+      "higher_observed": "cosmos",
+      "Merge": {
+        "lower_exact": "210061658811/1099511627776",
+        "upper_exact": "52515414703/274877906944",
+        "lower": 0.19104996573423705,
+        "upper": 0.19104996573514654
+      },
+      "Shift": {
+        "lower_exact": "15646601041/137438953472",
+        "upper_exact": "125172808329/1099511627776",
+        "lower": 0.11384400598035427,
+        "upper": 0.11384400598126376
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "cosmos",
+      "higher_observed": "sui",
+      "Merge": {
+        "lower_exact": "113692607953/549755813888",
+        "upper_exact": "227385215907/1099511627776",
+        "lower": 0.20680564912800037,
+        "upper": 0.20680564912890986
+      },
+      "Shift": {
+        "lower_exact": "24199481633/274877906944",
+        "upper_exact": "96797926533/1099511627776",
+        "lower": 0.08803720132345916,
+        "upper": 0.08803720132436865
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "injective",
+      "higher_observed": "osmosis",
+      "Merge": {
+        "lower_exact": "23217331197/137438953472",
+        "upper_exact": "185738649577/1099511627776",
+        "lower": 0.16892831770383054,
+        "upper": 0.16892831770474004
+      },
+      "Shift": {
+        "lower_exact": "52987893983/549755813888",
+        "upper_exact": "105975787967/1099511627776",
+        "lower": 0.09638441767128825,
+        "upper": 0.09638441767219774
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "polygon",
+      "higher_observed": "injective",
+      "Merge": {
+        "lower_exact": "209347965519/1099511627776",
+        "upper_exact": "13084247845/68719476736",
+        "lower": 0.19040086546647217,
+        "upper": 0.19040086546738166
+      },
+      "Shift": {
+        "lower_exact": "62346209753/549755813888",
+        "upper_exact": "124692419507/1099511627776",
+        "lower": 0.11340709489195433,
+        "upper": 0.11340709489286382
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "injective",
+      "higher_observed": "sui",
+      "Merge": {
+        "lower_exact": "257728982441/1099511627776",
+        "upper_exact": "128864491221/549755813888",
+        "lower": 0.23440314402341755,
+        "upper": 0.23440314402432705
+      },
+      "Shift": {
+        "lower_exact": "65685495955/549755813888",
+        "upper_exact": "131370991911/1099511627776",
+        "lower": 0.11948122110879922,
+        "upper": 0.11948122110970871
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "polygon",
+      "higher_observed": "osmosis",
+      "Merge": {
+        "lower_exact": "330899986711/1099511627776",
+        "upper_exact": "41362498339/137438953472",
+        "lower": 0.30095178473038686,
+        "upper": 0.30095178473129636
+      },
+      "Shift": {
+        "lower_exact": "214132187337/1099511627776",
+        "upper_exact": "107066093669/549755813888",
+        "lower": 0.19475208986204962,
+        "upper": 0.1947520898629591
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "osmosis",
+      "higher_observed": "sui",
+      "Merge": {
+        "lower_exact": "14964968165/1099511627776",
+        "upper_exact": "7482484083/549755813888",
+        "lower": 0.01361055925826804,
+        "upper": 0.013610559259177535
+      },
+      "Shift": {
+        "lower_exact": "1679629241/549755813888",
+        "upper_exact": "3359258483/1099511627776",
+        "lower": 0.0030552277912647696,
+        "upper": 0.0030552277921742643
+      }
+    },
+    {
+      "metric": "NC_2/3",
+      "lower_observed": "polygon",
+      "higher_observed": "sui",
+      "Merge": {
+        "lower_exact": "110069884781/274877906944",
+        "upper_exact": "440279539125/1099511627776",
+        "lower": 0.40043190813230467,
+        "upper": 0.40043190813321416
+      },
+      "Shift": {
+        "lower_exact": "253215293201/1099511627776",
+        "upper_exact": "126607646601/549755813888",
+        "lower": 0.23029796757418808,
+        "upper": 0.23029796757509757
+      }
+    }
+  ],
+  "summary": {
+    "HHI": {
+      "Merge": {
+        "count": 45,
+        "min": 0.006481248856289312,
+        "median": 0.06833820353222109,
+        "max": 0.17286131405489868
+      },
+      "Shift": {
+        "count": 45,
+        "min": 0.0028310604220678215,
+        "median": 0.04384578696317476,
+        "max": 0.12071169024875417
+      }
+    },
+    "NC_1/3": {
+      "Merge": {
+        "count": 42,
+        "min": 0.000261717564171704,
+        "median": 0.10173492897411052,
+        "max": 0.24026606637653458
+      },
+      "Shift": {
+        "count": 42,
+        "min": 0.000261717564171704,
+        "median": 0.06290038876522885,
+        "max": 0.17279384273479081
+      }
+    },
+    "NC_2/3": {
+      "Merge": {
+        "count": 45,
+        "min": 0.010579661568044685,
+        "median": 0.15957871776663524,
+        "max": 0.44827293492198805
+      },
+      "Shift": {
+        "count": 45,
+        "min": 0.0006920719788467977,
+        "median": 0.07598094912464148,
+        "max": 0.2663734364496122
+      }
+    }
+  },
+  "published_wealth_safe_budget": {
+    "lower_exact": "96236488881/549755813888",
+    "upper_exact": "192472977763/1099511627776",
+    "lower": 0.17505315350899764,
+    "upper": 0.17505315350990713
+  }
+}

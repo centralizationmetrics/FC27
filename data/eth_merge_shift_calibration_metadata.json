@@ -1,0 +1,79 @@
+{
+  "claim_label": "execution_withdrawal_address_partition_with_whole_validator_merge",
+  "validator_source": "data/eth_active_validator_projection_2026-09-22.csv.gz",
+  "raw_response_source": "data/eth_validators_effective_2026-09-22.json.gz",
+  "header_source": "data/eth_validators_effective_2026-09-22.header.json",
+  "histogram_source": "data/eth_active_effective_balance_histogram_2026-09-22.csv",
+  "group_source": "data/eth_execution_withdrawal_address_groups_2026-09-22.csv",
+  "beacon_api_provider": "ethereum-beacon-api.publicnode.com",
+  "beacon_api_endpoint": "https://ethereum-beacon-api.publicnode.com/eth/v1/beacon/states/0xb795a983525b03e3b656fcfede4575944e523aaa261546cb930a4287d85505cf/validators?status=active",
+  "download_completed_utc": "2026-09-22T12:53:14.981840+00:00",
+  "state_root": "0xb795a983525b03e3b656fcfede4575944e523aaa261546cb930a4287d85505cf",
+  "slot": "15271392",
+  "header_sha256": "66b060be7d22945cfb46702b34849d14e619709abd7e8f22383cc8bee87e9427",
+  "validator_snapshot": {
+    "execution_optimistic": false,
+    "finalized": true,
+    "validator_count": 901915,
+    "group_count": 44163,
+    "nonsingleton_group_count": 7507,
+    "affected_validator_count": 865259,
+    "nonsingleton_group_mass": 0.9573314975328645,
+    "merge_moved_effective_gwei": 39414513000000000,
+    "merge_moved_mass": 0.9088575796926218,
+    "denominator_effective_gwei": 43367095000000000,
+    "included_statuses": [
+      "active_exiting",
+      "active_ongoing"
+    ],
+    "status_counts": {
+      "active_exiting": 4533,
+      "active_ongoing": 897382
+    },
+    "credential_prefix_counts": {
+      "00": 8918,
+      "01": 872000,
+      "02": 20997
+    },
+    "credential_prefix_effective_gwei": {
+      "00": 285126000000000,
+      "01": 27903625000000000,
+      "02": 15178344000000000
+    },
+    "raw_response_sha256": "273c82e554242c8305b20de991bfb3839445a80ddc2ea3a9547c3b62c5a0426b",
+    "requested_by_state_root": true,
+    "paired_header": {
+      "block_root": "0xf18ada9018aad0398fb7697db065e8800f9ce8dacdb818094c63be46b165cc7c",
+      "slot": "15271392",
+      "state_root": "0xb795a983525b03e3b656fcfede4575944e523aaa261546cb930a4287d85505cf"
+    },
+    "state_binding": "validator request uses the state root in the saved finalized header; provider response is not independently authenticated"
+  },
+  "partition_rule": "merge 0x01 and 0x02 validators iff their embedded 20-byte execution withdrawal address is equal; retain every 0x00 validator as a singleton",
+  "partition_interpretation": "exact for the stated withdrawal-address rule; each validator has one controller. The Merge certificate is controller-level only if two 0x01/0x02 validators have the same controller if and only if their embedded execution withdrawal addresses are equal, so only whole 0x00 holdings may merge into these groups or with one another",
+  "merge_budget_convention": "total moved mass: each group retains its largest validator holding and absorbs the other whole holdings; receiving holdings are not charged",
+  "known_limitations": [
+    "one controller may use several withdrawal addresses",
+    "one pooled or contract withdrawal address may serve several controllers or beneficiaries",
+    "withdrawal authority is distinct from the validator signing key",
+    "the response was supplied by a public Beacon node and was not independently authenticated to consensus"
+  ],
+  "conditional_merge": {
+    "unresolved_set": "0x00 credential singleton groups",
+    "unresolved_validator_count": 8918,
+    "unresolved_effective_gwei": 285126000000000,
+    "denominator_effective_gwei": 43367095000000000,
+    "rho_00": 0.006574708312834881,
+    "grouping_restriction": "each validator has one controller; distinct withdrawal-address groups cannot merge; unresolved whole holdings may join them or one another",
+    "endpoint_status": "sharp; every endpoint is attained by a finite whole-holding grouping",
+    "status": "total unresolved share bounds additional moved mass, conditional on each validator having one controller and two 0x01/0x02 validators having the same controller if and only if their embedded execution withdrawal addresses are equal, so only mass carried by 0x00 validators may be reassigned"
+  },
+  "stress_shift": {
+    "alpha": 0.1,
+    "status": "uncalibrated sensitivity value, not an estimated error rate"
+  },
+  "histogram_sha256": "ca82d5fe9141bcaf094029f7868418568df1acd692ab58ad121977e1042940d4",
+  "groups_sha256": "8c1be804e79b9af170df58736d24d7c1f490525f115bf9f89b1b6bcd2eab3442",
+  "summary_sha256": "767f77ed200b53e67b9ae434a06020f354a8ed9d0116caddf9a4395c80f19028",
+  "generator_sha256": "6bd6004a256dffe2cfacfdb45edd31c7a79a7b791895d64b3ac87e7a3a16dee6"
+}

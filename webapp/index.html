@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Decentralization Certificate Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Decentralization Certificate Calculator</h1>
+    <p class="subtitle">
+      Explore intervals for decentralization metrics when holdings are missing or their controllers are uncertain.
+      Default dataset: <strong>Bitcoin top-10k balance records, 2025-09-23</strong>.
+    </p>
+  </header>
+
+  <main>
+    <section class="controls">
+      <h2>Input</h2>
+
+      <div class="control-row">
+        <label for="dataset">Dataset</label>
+        <select id="dataset">
+          <option value="btc10k" selected>Bitcoin top-10k (2025-09-23, fast)</option>
+          <option value="btc1m">Bitcoin top-1M (2025-09-23, ~21 MB)</option>
+          <option value="eth10k">Ethereum validator-balance demo (slot 13909376)</option>
+          <option value="upload">Upload custom (CSV / JSON / TXT)</option>
+        </select>
+        <input type="file" id="filepicker" accept=".csv,.json,.txt,.tsv" hidden />
+      </div>
+
+      <div id="dataset-info" class="info-box"></div>
+
+      <details class="upload-help">
+        <summary>Upload format</summary>
+        <div class="upload-help-body">
+          <p><strong>Accepted</strong>: JSON, CSV, TSV, or plain text (one value per line). All values are interpreted as <em>positive numeric balances</em>; address labels are ignored.</p>
+
+          <p><strong>JSON, flat array</strong>:</p>
+          <pre>[248597.58, 140574.83, 140398.42, ...]</pre>
+
+          <p><strong>JSON, object</strong> (either <code>shares_descending</code> or <code>shares</code> is accepted; sorting is done internally):</p>
+          <pre>{
+  "shares_descending": [248597.58, 140574.83, ...]
+}</pre>
+
+          <p><strong>CSV / TSV / TXT</strong>: one balance per line. If a line has multiple comma/tab/space-separated tokens, the <em>last numeric token</em> is used. Headers are accepted (skipped automatically). Examples:</p>
+          <pre>balance
+248597.58
+140574.83
+140398.42</pre>
+          <pre>address,balance_btc
+34xp...,248597.58
+bc1q...,140574.83</pre>
+
+          <p><strong>Normalization</strong>: the uploaded vector is sorted descending and normalized by its own sum, so it is treated as the complete distribution of observed labels by default. Labels need not have different controllers. To analyze a capped observation, set <em>omitted mass T<sub>N</sub></em>; the visible balances are then scaled to sum to 1 − T<sub>N</sub>. Clear the field to restore the dataset denominator.</p>
+
+          <p><strong>Size limits</strong>: practical limit is ~5–10 M entries. The calculator runs entirely in your browser; nothing is uploaded to any server.</p>
+        </div>
+      </details>
+
+      <fieldset>
+        <legend>Capping</legend>
+        <div class="control-row">
+          <label for="N">Cap N (top-N rich list)</label>
+          <input type="number" id="N" min="1" step="1" value="10000" />
+          <span class="hint">Used to define the visible head from the dataset</span>
+        </div>
+        <div class="control-row">
+          <label for="T_N">Omitted tail mass T<sub>N</sub></label>
+          <input type="number" id="T_N" min="0" max="0.999999" step="0.001" value="" placeholder="Auto" />
+          <span class="hint">Blank uses the dataset denominator. An override rescales the visible shares to 1 − T.</span>
+        </div>
+        <div class="control-row">
+          <label for="M_total">Total positive count M</label>
+          <input type="number" id="M_total" min="0" step="1" value="0" />
+          <span class="hint">Total number of positive labels, including the visible head. Used only for Gini under capping; it is not a controller-count assumption.</span>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Threshold metrics</legend>
+        <div class="control-row">
+          <label for="k">k for CR<sub>k</sub></label>
+          <input type="number" id="k" min="1" step="1" value="10000" />
+        </div>
+        <div class="control-row">
+          <label for="tau">&tau; for NC<sub>&tau;</sub></label>
+          <input type="number" id="tau" min="0" max="1" step="0.01" value="0.5" />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Whole-distribution metrics</legend>
+        <div class="control-row">
+          <label for="p">Power p for S<sub>p</sub></label>
+          <input type="number" id="p" min="1" max="6" step="0.25" value="2" />
+          <span class="hint">p = 2 is HHI</span>
+        </div>
+        <div class="control-row">
+          <label for="q">Hill order q</label>
+          <input type="number" id="q" min="0" max="6" step="0.25" value="2" />
+          <span class="hint">q = 2 gives Hill<sub>2</sub> = 1/HHI</span>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Attribution budgets</legend>
+        <p class="hint">Both budgets limit the fraction of resource moved. Merge combines whole holdings: in each group, the largest holding stays and all others move to it. Shift also permits moving part of a holding and creating additional controllers.</p>
+        <div class="control-row">
+          <label for="rho">Merge: &rho;</label>
+          <input type="range" id="rho" min="0" max="0.5" step="0.005" value="0.1" />
+          <span id="rho-val" class="value">0.100</span>
+        </div>
+        <div class="control-row">
+          <label for="alpha">Shift: &rho;</label>
+          <input type="range" id="alpha" min="0" max="0.5" step="0.005" value="0.1" />
+          <span id="alpha-val" class="value">0.100</span>
+        </div>
+      </fieldset>
+
+      <div id="status" class="status">ready</div>
+    </section>
+
+    <div class="right-column">
+      <section class="results">
+        <h2>Certificates</h2>
+        <p>Attribution rows include the omitted resource. Shift intervals are sharp. Merge intervals are also sharp when the reassignment budget does not exceed the omitted mass; otherwise they are conservative outer bounds.</p>
+
+        <div class="tile-grid">
+          <article class="tile" id="tile-CRk">
+            <h3>CR<sub>k</sub></h3>
+            <div class="metric-raw">raw</div>
+            <div class="metric-rows"></div>
+          </article>
+          <article class="tile" id="tile-NCtau">
+            <h3>NC<sub>&tau;</sub></h3>
+            <div class="metric-raw">raw</div>
+            <div class="metric-rows"></div>
+          </article>
+          <article class="tile" id="tile-HHI">
+            <h3>HHI = S<sub>2</sub></h3>
+            <div class="metric-raw">raw</div>
+            <div class="metric-rows"></div>
+          </article>
+          <article class="tile" id="tile-Sp">
+            <h3>S<sub>p</sub></h3>
+            <div class="metric-raw">raw</div>
+            <div class="metric-rows"></div>
+          </article>
+          <article class="tile" id="tile-Gini">
+            <h3>Gini</h3>
+            <div class="metric-raw">raw</div>
+            <div class="metric-rows"></div>
+          </article>
+          <article class="tile" id="tile-Hill">
+            <h3>Hill<sub>q</sub></h3>
+            <div class="metric-raw">raw</div>
+            <div class="metric-rows"></div>
+          </article>
+          <article class="tile" id="tile-Entropy">
+            <h3>Entropy</h3>
+            <div class="metric-raw">raw</div>
+            <div class="metric-rows"></div>
+          </article>
+          <article class="tile" id="tile-Composed">
+            <h3>Observation and assumptions</h3>
+            <div class="metric-raw">same denominator for every budget</div>
+            <div class="metric-rows"></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="figures">
+        <h2>Interactive illustrations</h2>
+
+        <article class="fig-card">
+          <header>
+            <h3>Capping convergence</h3>
+            <p>Bands as the cap N is varied; the shaded interval is the certificate [L, U] implied by the top-N observation. CR<sub>k</sub> becomes exact once N ≥ k; NC<sub>&tau;</sub> becomes exact once the visible head crosses τ; HHI uses the tail-packed exact upper; Gini is count-aware in the omitted positive count.</p>
+          </header>
+          <div class="fig-grid grid-2x2">
+            <div class="panel"><h4>CR<sub>k</sub></h4><canvas id="cap-CR"></canvas></div>
+            <div class="panel"><h4>NC<sub>&tau;</sub></h4><canvas id="cap-NC"></canvas></div>
+            <div class="panel"><h4>HHI</h4><canvas id="cap-HHI"></canvas></div>
+            <div class="panel"><h4>Gini (count-aware)</h4><canvas id="cap-Gini"></canvas></div>
+          </div>
+        </article>
+
+        <article class="fig-card">
+          <header>
+            <h3>Joint capping and attribution</h3>
+            <p>Intervals as the common reassignment budget ρ varies. Red: Merge bounds. Blue: sharp Shift intervals. Both include the omitted resource. Merge attains the common upper bound when ρ does not exceed the omitted mass.</p>
+          </header>
+          <div class="fig-grid grid-1x3">
+            <div class="panel"><h4>CR<sub>k</sub></h4><canvas id="att-CR"></canvas></div>
+            <div class="panel"><h4>NC<sub>&tau;</sub></h4><canvas id="att-NC"></canvas></div>
+            <div class="panel"><h4>HHI</h4><canvas id="att-HHI"></canvas></div>
+          </div>
+        </article>
+
+        <article class="fig-card">
+          <header>
+            <h3>Power-order sensitivity</h3>
+            <p>Conservative joint Merge intervals at the selected budget ρ, as the power order varies. Power sums on the left; Hill numbers on the right. Both include omitted holdings.</p>
+          </header>
+          <div class="fig-grid grid-1x2">
+            <div class="panel"><h4>S<sub>p</sub> as p varies</h4><canvas id="fam-Sp"></canvas></div>
+            <div class="panel"><h4>Hill<sub>q</sub> as q varies</h4><canvas id="fam-Hill"></canvas></div>
+          </div>
+        </article>
+      </section>
+
+      <section class="footer-notes">
+        <p>
+          Reference paper: <em>How informative are distribution-based
+          decentralization metrics? Certificates under capping and attribution
+          uncertainty</em> (FC27 version). This page implements the capping and composition results, with Merge defined by moved mass. All calculations run locally in your browser; nothing is uploaded.
+        </p>
+        <p>
+          Status badges: <span class="badge exact">exact</span> = recovered from the
+          observation; <span class="badge interval">interval</span> = sharp
+          identified-set endpoints; <span class="badge safe">conservative</span> = valid
+          but possibly loose bound; <span class="badge descriptive">descriptive</span> =
+          an observed-label summary, without a claim about controllers. “Not computed” means this calculator does not implement a bound for that metric and model.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    // Cache-busting query parameter so script changes always land on refresh.
+    (function () {
+      const v = "v=" + Date.now();
+      document.write('<scr' + 'ipt src="metrics.js?' + v + '"></scr' + 'ipt>');
+      document.write('<scr' + 'ipt src="app.js?' + v + '"></scr' + 'ipt>');
+    })();
+  </script>
+</body>
+</html>
