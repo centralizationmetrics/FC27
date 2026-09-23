@@ -1,0 +1,10 @@
+{
+  "header_download_utc": "2026-09-22T12:52:40.739428+00:00",
+  "slot": "15271392",
+  "state_root": "0xb795a983525b03e3b656fcfede4575944e523aaa261546cb930a4287d85505cf",
+  "validator_request": "https://ethereum-beacon-api.publicnode.com/eth/v1/beacon/states/0xb795a983525b03e3b656fcfede4575944e523aaa261546cb930a4287d85505cf/validators?status=active",
+  "validator_download_completed_utc": "2026-09-22T12:53:14.981840+00:00",
+  "validator_raw_bytes": 437767229,
+  "validator_raw_sha256": "273c82e554242c8305b20de991bfb3839445a80ddc2ea3a9547c3b62c5a0426b",
+  "validator_gzip_bytes": 65778750
+}

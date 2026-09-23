@@ -1,0 +1,4 @@
+# Direct plotting dependencies used for the FC27 figures (Python 3.13.3).
+# Certificate tests and validator-projection verification use only the stdlib.
+numpy==2.4.4
+matplotlib==3.10.9

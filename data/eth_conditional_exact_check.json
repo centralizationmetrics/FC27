@@ -1,0 +1,36 @@
+{
+  "model": "conditional Merge of whole validator holdings",
+  "all_endpoints_attained": true,
+  "unresolved_mass": 0.006574708312834881,
+  "unresolved_hhi": 4.847589784386161e-09,
+  "grouped_hhi": 0.05324504817951941,
+  "sharp_conditional": {
+    "hhi": [
+      0.05324504817951941,
+      0.05610184312026344
+    ],
+    "cr": [
+      0.9747939307440353,
+      0.9813686390568702
+    ],
+    "nc": [
+      61.0,
+      65.0
+    ]
+  },
+  "exact_endpoints": {
+    "hhi": [
+      "100138224542169/1880704928739025",
+      "105511012867623/1880704928739025"
+    ],
+    "cr": [
+      "42273981/43367095",
+      "42559107/43367095"
+    ],
+    "nc": [
+      "61",
+      "65"
+    ]
+  },
+  "verified": "integer input and exact rational endpoint calculations agree with figure summary"
+}

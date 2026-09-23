@@ -1,0 +1,49 @@
+{
+  "file": "eth_active_validator_projection_2026-09-22.csv.gz",
+  "columns": [
+    "index",
+    "status",
+    "effective_balance",
+    "withdrawal_credentials"
+  ],
+  "effective_balance_unit": "gwei",
+  "row_order": "ascending integer validator index",
+  "encoding": "UTF-8 CSV, LF line endings; gzip level 9, mtime 0, no filename header",
+  "compressed_bytes": 4309244,
+  "compressed_sha256": "7b12437e26865c2a6bc79d94c833008d8ad5f6aa3efd79e6bd7f3bfaa081b146",
+  "uncompressed_csv_sha256": "fc635b18eebfc2a6d1fd03bf6fe77d062130121c341dda1da296ad577d626554",
+  "raw_response_sha256": "273c82e554242c8305b20de991bfb3839445a80ddc2ea3a9547c3b62c5a0426b",
+  "state_root": "0xb795a983525b03e3b656fcfede4575944e523aaa261546cb930a4287d85505cf",
+  "slot": "15271392",
+  "source_request": "https://ethereum-beacon-api.publicnode.com/eth/v1/beacon/states/0xb795a983525b03e3b656fcfede4575944e523aaa261546cb930a4287d85505cf/validators?status=active",
+  "source_download_completed_utc": "2026-09-22T12:53:14.981840+00:00",
+  "included_statuses": [
+    "active_exiting",
+    "active_ongoing"
+  ],
+  "limitations": [
+    "Projection of a response requested by immutable state root from a public Beacon node.",
+    "The request and header share a state root; the node's response is not independently authenticated to consensus.",
+    "Withdrawal-address equality is not validated as common controller identity."
+  ],
+  "validator_count": 901915,
+  "group_count": 44163,
+  "status_counts": {
+    "active_exiting": 4533,
+    "active_ongoing": 897382
+  },
+  "credential_prefix_counts": {
+    "00": 8918,
+    "01": 872000,
+    "02": 20997
+  },
+  "credential_prefix_effective_gwei": {
+    "00": 285126000000000,
+    "01": 27903625000000000,
+    "02": 15178344000000000
+  },
+  "effective_balance_gwei": 43367095000000000,
+  "merge_moved_effective_gwei": 39414513000000000,
+  "merge_moved_mass": 0.9088575796926218,
+  "histogram_and_groups": "both match the supplied CSVs byte for byte"
+}

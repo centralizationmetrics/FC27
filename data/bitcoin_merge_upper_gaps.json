@@ -1,0 +1,20 @@
+[
+  {
+    "budget": "0",
+    "feasible_merge_hhi": 0.0005648608962468386,
+    "shift_upper_minus_merge_witness": 0.0,
+    "gap_bound": 0.0
+  },
+  {
+    "budget": "1/10",
+    "feasible_merge_hhi": 0.01306014300355332,
+    "shift_upper_minus_merge_witness": 1.0047256776757543e-08,
+    "gap_bound": 2.2579650787021062e-08
+  },
+  {
+    "budget": "3/10",
+    "feasible_merge_hhi": 0.09804943729442246,
+    "shift_upper_minus_merge_witness": 1.0811236345914624e-06,
+    "gap_bound": 1.5682414216550467e-06
+  }
+]
